@@ -9,36 +9,34 @@ import com.pulumi.azurenative.storage.enums.Kind;
 import com.pulumi.azurenative.storage.enums.SkuName;
 import com.pulumi.azurenative.storage.inputs.ListStorageAccountKeysArgs;
 import com.pulumi.azurenative.storage.inputs.SkuArgs;
-import com.pulumi.core.Either;
 import com.pulumi.core.Output;
 import com.pulumi.deployment.InvokeOptions;
 
-public class App
+public final class AzurePulumiApp
 {
-    public static void main(String[] args)
+    public static void main(final String[] aArgs)
     {
 	Pulumi.run(ctx -> {
 	    var resourceGroup = new ResourceGroup("resourceGroup");
-	    var storageAccount = new StorageAccount("sa", StorageAccountArgs.builder()
-									    .resourceGroupName(resourceGroup.name())
-									    .sku(SkuArgs.builder()
-											.name(SkuName.Standard_LRS)
-											.build())
-									    .kind(Kind.StorageV2)
-									    .build());
+	    var storageAccount = new StorageAccount("sea", StorageAccountArgs.builder()
+									     .resourceGroupName(resourceGroup.name())
+									     .sku(SkuArgs.builder()
+											 .name(SkuName.Standard_LRS)
+											 .build())
+									     .kind(Kind.StorageV2)
+									     .build());
 
-	    var primaryStorageKey = getStorageAccountPrimaryKey(
-		    resourceGroup.name(),
-		    storageAccount.name());
+	    var primaryStorageKey = getStorageAccountPrimaryKey(resourceGroup.name(),
+								storageAccount.name());
 
 	    ctx.export("primaryStorageKey", primaryStorageKey);
 	});
     }
 
-    private static Output<String> getStorageAccountPrimaryKey(Output<String> resourceGroupName,
-							      Output<String> accountName)
+    private static Output<String> getStorageAccountPrimaryKey(final Output<String> aResourceGroupName,
+							      final Output<String> aAccountName)
     {
-	return Output.tuple(resourceGroupName, accountName)
+	return Output.tuple(aResourceGroupName, aAccountName)
 		     .apply(tuple -> {
 			 var actualResourceGroupName = tuple.t1;
 			 var actualAccountName = tuple.t2;

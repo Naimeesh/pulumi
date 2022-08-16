@@ -15,4 +15,5 @@ minikube start --vm-driver hyperv --hyperv-virtual-switch "Minikube Switch" does
 
 pulumi new kubernetes-java</br>
 pulumi up</br>
-
+</br>
+https://app.pulumi.com/nagkumar/k8n/dev/updates/17</br>

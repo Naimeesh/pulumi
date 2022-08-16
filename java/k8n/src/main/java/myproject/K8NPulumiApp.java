@@ -13,7 +13,7 @@ import com.pulumi.kubernetes.meta.v1.inputs.ObjectMetaArgs;
 
 import java.util.Map;
 
-public class App
+public class K8NPulumiApp
 {
     public static void main(String[] args)
     {
@@ -27,7 +27,7 @@ public class App
 									.selector(LabelSelectorArgs.builder()
 												   .matchLabels(labels)
 												   .build())
-									.replicas(1)
+									.replicas(4)
 									.template(PodTemplateSpecArgs.builder()
 												     .metadata(
 													     ObjectMetaArgs.builder()
@@ -40,7 +40,7 @@ public class App
 																	   .image("nginx")
 																	   .ports(ContainerPortArgs.builder()
 																				   .containerPort(
-																					   8034)
+																					   50314)
 																				   .build())
 																	   .build())
 														      .build())
