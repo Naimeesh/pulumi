@@ -1,3 +1,0 @@
-name: k8n
-runtime: java
-description: A minimal Kubernetes Java Pulumi program
