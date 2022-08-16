@@ -7,7 +7,7 @@ kubectl cluster-info</br>
 kubectl cluster-info dump</br>  
 
 set KUBECONFIG=%UserProfile%\.kube\config</br>  
-minikube start --kubernetes-version=v1.24.3</br>
+minikube start --kubernetes-version=v1.24.3</br>  this works
   
 minikube start --driver=docker</br>
 

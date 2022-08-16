@@ -12,3 +12,6 @@ pulumi destroy</br>
 pulumi stack rm --force</br>
 pulumi stack export --file stack.json</br>
 pulumi stack import --file stack.json</br>
+
+
+pulumi refresh

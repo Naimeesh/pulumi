@@ -5,11 +5,11 @@ import com.pulumi.aws.s3.Bucket;
 
 import java.util.stream.IntStream;
 
-public class App
+public final class AWSPulumiApp
 {
-    public static void main(String[] args)
+    public static void main(final String[] aArgs)
     {
-	String[] buckNames = {"eewwewewe","nage", "rajai", "ramesh"};
+	String[] buckNames = {"eewewewewe","nage", "rajai", "ramesh"};
 
 	Pulumi.run(ctx -> {
 	    IntStream.range(0, buckNames.length)
