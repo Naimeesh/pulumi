@@ -1,20 +1,18 @@
-start docker for windows on local machine  
-kubectl get all  
-kubectl config get-contexts  
-kubectl get nodes  
-kubectl get pods  
-kubectl cluster-info  
-kubectl cluster-info dump  
+start docker for windows on local machine</br>
+kubectl get all</br>
+kubectl config get-contexts</br>  
+kubectl get nodes</br>
+kubectl get pods</br>
+kubectl cluster-info</br> 
+kubectl cluster-info dump</br>  
 
-set KUBECONFIG=%UserProfile%\.kube\config  
-minikube start --kubernetes-version=v1.24.3  
+set KUBECONFIG=%UserProfile%\.kube\config</br>  
+minikube start --kubernetes-version=v1.24.3</br>
   
-minikube start --driver=docker  
+minikube start --driver=docker</br>
 
-minikube start --vm-driver hyperv --hyperv-virtual-switch "Minikube Switch" does not work  
+minikube start --vm-driver hyperv --hyperv-virtual-switch "Minikube Switch" does not work</br>  
 
-
-pulumi new kubernetes-java
-
-pulumi up  
+pulumi new kubernetes-java</br>
+pulumi up</br>
 

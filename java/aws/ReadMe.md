@@ -1,3 +1,3 @@
-pulumi new aws-java
-pulumi up
+pulumi new aws-java</br>
+pulumi up</br>
 
