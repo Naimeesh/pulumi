@@ -1,14 +1,14 @@
-pulumi new java
-pulumi new java-gradle
+pulumi new java</br>
+pulumi new java-gradle</br>
 
-pulumi up -y (https://www.pulumi.com/docs/reference/cli/pulumi_up/)
+pulumi up -y (https://www.pulumi.com/docs/reference/cli/pulumi_up/)</br>
 
-pulumi stack
-pulumi stack ls
-pulumi stack init staging
-pulumi stack init broomllc/staging
-pulumi stack select jane-dev
-pulumi destroy
-pulumi stack rm --force
-pulumi stack export --file stack.json
-pulumi stack import --file stack.json
+pulumi stack</br>
+pulumi stack ls</br>
+pulumi stack init staging</br>
+pulumi stack init broomllc/staging</br>
+pulumi stack select jane-dev</br>
+pulumi destroy</br>
+pulumi stack rm --force</br>
+pulumi stack export --file stack.json</br>
+pulumi stack import --file stack.json</br>
