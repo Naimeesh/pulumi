@@ -12,10 +12,11 @@ repositories {
 
 dependencies {
     implementation 'com.pulumi:pulumi:(,1.0]'
+    implementation "com.pulumi:docker:3.3.0-alpha.1658325219+90b3b0ee"
 }
 
 application {
     mainClass = project.hasProperty("mainClass")
             ? project.getProperty("mainClass")
-            : 'myproject.App'
+            : 'com.tejasoft.devops.iac.pulumi.docker.DockerPulumiApp'
 }
