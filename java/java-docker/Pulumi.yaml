@@ -1,0 +1,3 @@
+name: java-docker
+runtime: java
+description: A minimal Docker Java Pulumi program
