@@ -1,4 +1,4 @@
-package myproject;
+package com.tejasoft.devops.iac.pulumi.k8n;
 
 import com.pulumi.Pulumi;
 import com.pulumi.kubernetes.apps.v1.Deployment;
@@ -27,7 +27,7 @@ public class K8NPulumiApp
 									.selector(LabelSelectorArgs.builder()
 												   .matchLabels(labels)
 												   .build())
-									.replicas(4)
+									.replicas(40)
 									.template(PodTemplateSpecArgs.builder()
 												     .metadata(
 													     ObjectMetaArgs.builder()

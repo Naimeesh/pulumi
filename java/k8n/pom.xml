@@ -13,7 +13,7 @@
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
         <maven.compiler.release>11</maven.compiler.release>
-        <mainClass>myproject.K8NPulumiApp</mainClass>
+        <mainClass>com.tejasoft.devops.iac.pulumi.k8n.K8NPulumiNewApp</mainClass>
         <mainArgs/>
     </properties>
 

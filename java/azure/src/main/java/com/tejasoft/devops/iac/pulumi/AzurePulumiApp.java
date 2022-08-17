@@ -1,4 +1,4 @@
-package myproject;
+package com.tejasoft.devops.iac.pulumi;
 
 import com.pulumi.Pulumi;
 import com.pulumi.azurenative.resources.ResourceGroup;
