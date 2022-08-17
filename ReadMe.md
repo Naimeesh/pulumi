@@ -21,3 +21,5 @@ pulumi stack export --file stack.json</br>
 pulumi stack import --file stack.json</br>
 
 pulumi refresh
+
+https://github.com/pulumi/tutorial-pulumi-fundamentals

@@ -1,4 +1,4 @@
-package myproject;
+package com.tejasoft.devops.iac.pulumi.aws;
 
 import com.pulumi.Pulumi;
 import com.pulumi.aws.s3.Bucket;

@@ -11,8 +11,8 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.pulumi:pulumi:(,1.0]'
-    implementation "com.pulumi:docker:3.3.0-alpha.1658325219+90b3b0ee"
+    implementation 'com.pulumi:pulumi:0.5.2'
+    implementation "com.pulumi:docker:3.2.0"
 }
 
 application {

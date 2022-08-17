@@ -1,0 +1,8 @@
+config:
+  java-gradle-docker:backendPort: "3000"
+  java-gradle-docker:database: mongodb
+  java-gradle-docker:frontendPort: "3001"
+  java-gradle-docker:mongoHost: localhost
+  java-gradle-docker:mongoPort: "27017"
+  java-gradle-docker:nodeEnvironment: "18"
+  java-gradle-docker:protocol: unix
