@@ -1,2 +1,2 @@
-rootProject.name = 'java-gralde-docker'
+rootProject.name = 'docker'
 include('app')

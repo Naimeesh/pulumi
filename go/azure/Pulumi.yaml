@@ -1,0 +1,5 @@
+name: cuedemo
+runtime:
+    name: yaml
+    options:
+        compiler: cue export
