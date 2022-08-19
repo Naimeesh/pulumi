@@ -4,6 +4,9 @@ Complete Reference : https://www.pulumi.com/docs/reference/cli/
 Examples at https://www.pulumi.com/resources/advanced-infrastructure-as-code-2020-04-16/ (AWS, K8N, GCP, Azure) 
 
 pulumi login
+pulumi login --local
+pulumi login s3://<bucket-name>
+pulumi login file:///app/data
 
 pulumi new java</br>
 pulumi new java-gradle</br>
@@ -29,11 +32,13 @@ pulumi logs
 
 https://github.com/pulumi/tutorial-pulumi-fundamentals
 
-
 https://github.com/pulumi/examples
 
 pulumi stack output
 
 pulumi destroy -y
 
+https://www.pulumi.com/registry/
+https://www.pulumi.com/docs/intro/concepts/
+https://github.com/jonashackt/pulumi-talk
 

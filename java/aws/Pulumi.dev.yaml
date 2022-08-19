@@ -1,5 +1,4 @@
 config:
-#  aws:region: us-east-1
   aws:region: ap-south-1
-#  aws:region: us-west-2
-
+  hw:dbPassword:
+    secure: AAABADruWPmvqs40MNoFDToArvVHg527H1lQlBw1cDCEG8UshTc=
