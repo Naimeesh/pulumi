@@ -8,15 +8,19 @@ pulumi login
 pulumi new java</br>
 pulumi new java-gradle</br>
 
+pulumi new yaml -f
+
 pulumi up -y</br>
 
 pulumi stack</br>
 pulumi stack ls</br>
 pulumi stack init staging</br>
+pulumi stack init dev</br>
 pulumi stack init broomllc/staging</br>
 pulumi stack select jane-dev</br>
 pulumi destroy</br>
 pulumi stack rm --force</br>
+pulumi stack rm dev</br>
 pulumi stack export --file stack.json</br>
 pulumi stack import --file stack.json</br>
 
@@ -24,3 +28,9 @@ pulumi refresh
 pulumi logs
 
 https://github.com/pulumi/tutorial-pulumi-fundamentals
+
+
+https://github.com/pulumi/examples
+
+pulumi stack output
+
