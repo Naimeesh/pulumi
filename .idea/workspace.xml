@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12e4a99c-a3a8-4ff1-9762-7e5ab8b35b8f" name="Changes" comment="spaces added for new line">
-      <change afterPath="$PROJECT_DIR$/docs/internet/20191113-pulumi-vs-ansible-containerconf2019-191115071331.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/internet/pulumi-200704212708.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/aws/Pulumi.dev.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/java/aws/Pulumi.dev.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/aws/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java/aws/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java/aws/src/main/java/com/tejasoft/devops/iac/pulumi/aws/AWSEKSPulumiApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/aws/src/main/java/com/tejasoft/devops/iac/pulumi/aws/AWSEKSPulumiApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tf/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/tf/ReadMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tf/src/userdata.sh" beforeDir="false" afterPath="$PROJECT_DIR$/tf/src/userdata.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

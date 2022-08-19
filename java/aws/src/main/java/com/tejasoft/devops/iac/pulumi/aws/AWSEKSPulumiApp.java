@@ -23,13 +23,13 @@ public final class AWSEKSPulumiApp
 	aContext.log().error("fatal error");
 	aContext.projectName();
 
-	var config = aContext.config();
-	var name = config.require("name");
-	var lucky = config.getInteger("lucky").orElse(42);
+	var lConfig = aContext.config();
+	var name = lConfig.require("name");
+	var lucky = lConfig.getInteger("lucky").orElse(42);
 	aContext.log().info(String.format("Hello, %s -- I see your lucky number is %s!", name, lucky));
-	var data = config.requireObject("data", Map.class);
+	var data = lConfig.requireObject("data", Map.class);
 	aContext.log().info(String.format("Active: %s", data.get("active")));
 	aContext.stackName();
-	aContext.log().info(String.format("Password: %s", config.require("dbPassword")));
+	aContext.log().info(String.format("Password: %s", lConfig.require("dbPassword")));
     }
 }
