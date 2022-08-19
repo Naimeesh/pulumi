@@ -15,7 +15,7 @@
 	<maven.compiler.release>11</maven.compiler.release>
 	<mainClass1>com.tejasoft.devops.iac.pulumi.aws.AWSPulumiApp</mainClass1>
 	<mainClass2>com.tejasoft.devops.iac.pulumi.aws.AWSEKSPulumiApp</mainClass2>
-	<mainClass>com.tejasoft.devops.iac.pulumi.aws.AWSPulumiSecurityGroups</mainClass>
+	<mainClass>com.tejasoft.devops.iac.pulumi.aws.AWSPulumiWebserver</mainClass>
 	<mainArgs/>
     </properties>
 

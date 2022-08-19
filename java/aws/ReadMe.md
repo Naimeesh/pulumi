@@ -13,3 +13,6 @@ kubectl version
 kubectl cluster-info
 kubectl get nodes
 
+
+https://ap-south-1.console.aws.amazon.com/ec2/v2/home?region=ap-south-1#Instances:
+https://ap-south-1.console.aws.amazon.com/ec2/v2/home?region=ap-south-1#SecurityGroups:

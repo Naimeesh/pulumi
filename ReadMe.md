@@ -34,3 +34,6 @@ https://github.com/pulumi/examples
 
 pulumi stack output
 
+pulumi destroy -y
+
+

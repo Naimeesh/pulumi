@@ -11,11 +11,11 @@ import com.pulumi.aws.ec2.inputs.SecurityGroupIngressArgs;
 
 import java.util.List;
 
-public class AWSPulumiSecurityGroups
+public final class AWSPulumiWebserver
 {
     public static void main(String[] args)
     {
-	Pulumi.run(AWSPulumiSecurityGroups::stack);
+	Pulumi.run(AWSPulumiWebserver::stack);
     }
 
     public static void stack(Context ctx)
