@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="12e4a99c-a3a8-4ff1-9762-7e5ab8b35b8f" name="Changes" comment="spaces added for new line">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/aws/src/main/java/com/tejasoft/devops/iac/pulumi/aws/AWSEKSPulumiApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/aws/src/main/java/com/tejasoft/devops/iac/pulumi/aws/AWSEKSPulumiApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/IaC_Devopedia_Sep_2022.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/IaC_Devopedia_Sep_2022.pptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go/azure/ReadMe.me" beforeDir="false" afterPath="$PROJECT_DIR$/go/azure/ReadMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/aws/ReadME,md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,6 +93,38 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Autodetect">
+      <module name="pulumi" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="pulumi" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
       <method v="2" />
     </configuration>
   </component>
