@@ -19,3 +19,5 @@ https://ap-south-1.console.aws.amazon.com/ec2/v2/home?region=ap-south-1#Security
 
 
 https://www.pulumi.com/registry/packages/aws/installation-configuration/
+
+aws configure
