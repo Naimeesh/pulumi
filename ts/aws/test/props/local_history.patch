@@ -1,0 +1,28 @@
+Index: index.ts
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/index.ts b/index.ts
+--- a/index.ts	(date 1661154170283)
++++ b/index.ts	(date 1661154170283)
+@@ -4,7 +4,9 @@
+ import * as eks from "@pulumi/eks";
+ 
+ // Create a custom VPC.
+-const vpc = new awsx.ec2.Vpc("my-vpc");
++const vpc = new awsx.ec2.Vpc("my-vpc", {
++    cidrBlock: "10.0.0.0/16",
++});
+ 
+ // Create a basic EKS cluster.
+ const cluster = new eks.Cluster("my-cluster", {
+@@ -13,7 +15,7 @@
+     maxSize: 2,
+     storageClasses: "gp2",
+     deployDashboard: false,
+-    version: "1.13",
++    version: "1.23",
+     vpcId: vpc.id,
+     subnetIds: vpc.publicSubnetIds,
+ });

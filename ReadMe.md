@@ -20,6 +20,7 @@ pulumi stack ls</br>
 pulumi stack init staging</br>
 pulumi stack init dev</br>
 pulumi stack init broomllc/staging</br>
+pulumi stack select dev
 pulumi stack select jane-dev</br>
 pulumi destroy</br>
 pulumi stack rm --force</br>
@@ -34,6 +35,7 @@ https://github.com/pulumi/tutorial-pulumi-fundamentals
 
 https://github.com/pulumi/examples
 
+
 pulumi stack output
 
 pulumi destroy -y
@@ -42,3 +44,12 @@ https://www.pulumi.com/registry/
 https://www.pulumi.com/docs/intro/concepts/
 https://github.com/jonashackt/pulumi-talk
 
+pulumi preview --logtostderr -v=9
+pulumi plugin install resource docker
+pulumi plugin install resource docker v3.5.0-alpha.1660680787+9d280bb7
+docker image rm 22b56b107300
+
+https://www.pulumi.com/docs/guides/testing/
+
+
+https://github.com/pulumi/examples/tree/74db62a03d013c2854d2cf933c074ea0a3bbf69d/testing-pac-ts

@@ -1,0 +1,424 @@
+G:\DWork\osource\cloudc\devops\pulumi\java\docker>pulumi preview --logtostderr -v=9
+I0822 09:39:30.033867    2188 backend.go:420] found username for access token
+Please choose a stack, or create a new one:  [Use arrows to move, enter to selecPlease choose a stack, or create a new one: dev
+I0822 09:39:32.253136    2188 backend.go:420] found username for access token
+I0822 09:39:34.069121    2188 backend.go:420] found username for access token
+Previewing update (dev)
+
+View Live: https://app.pulumi.com/nagkumar/docker/dev/previews/fce281b6-a3f5-4300-bc64-98fa86ef4113
+
+I0822 09:39:35.182121    2188 update.go:190] *** Starting Update(preview=true) ***
+I0822 09:39:35.182921    2188 plugins.go:120] gatherPluginsFromProgram(): gathering plugins from language host
+I0822 09:39:35.217199    2188 plugins.go:1439] GetPluginPath(language, java, <nil>): found on $PATH D:\Apps\Dev\cloudc\devops\pulumi\3.38.0\pulumi-language-java.exe
+I0822 09:39:35.217199    2188 plugin.go:184] Launching plugin 'java' from 'D:\Apps\Dev\cloudc\devops\pulumi\3.38.0\pulumi-language-java.exe' with args: -root=G:\DWork\osource\cloudc\devops\pulumi\java\docker,127.0.0.1:51844
+I0822 09:39:35.377080    2188 langruntime_plugin.go:202] langhost[java].GetPluginInfo() executing
+I0822 09:39:35.377622    2188 langruntime_plugin.go:111] langhost[java].GetRequiredPlugins(proj=docker,pwd=G:\DWork\osource\cloudc\devops\pulumi\java\docker,program=.) executing
+I0822 09:39:38.336181    2188 eventsink.go:78] eventSink::Infoerr(<{%reset%}>Exception in thread "main" java.lang.IllegalArgumentException: Program run without the Pulumi engine available; re-run using the `pulumi` CLI
+<{%reset%}>)
+I0822 09:39:38.336690    2188 eventsink.go:78] eventSink::Infoerr(<{%reset%}>  at com.pulumi.deployment.internal.DeploymentImpl$DeploymentState.lambda$fromEnvironment$2(DeploymentImpl.java:1660)
+<{%reset%}>)
+I0822 09:39:38.336726    2188 langruntime_plugin.go:153] langhost[java].GetRequiredPlugins(proj=docker,pwd=G:\DWork\osource\cloudc\devops\pulumi\java\docker,program=.) success: #versions=0
+I0822 09:39:38.337830    2188 eventsink.go:78] eventSink::Infoerr(<{%reset%}>  at com.pulumi.core.Left.orThrow(Left.java:57)
+<{%reset%}>)
+I0822 09:39:38.338368    2188 eventsink.go:78] eventSink::Infoerr(<{%reset%}>  at com.pulumi.deployment.internal.DeploymentImpl$DeploymentState.fromEnvironment(DeploymentImpl.java:1665)
+<{%reset%}>)
+I0822 09:39:38.338368    2188 eventsink.go:78] eventSink::Infoerr(<{%reset%}>  at com.pulumi.deployment.internal.DeploymentImpl.fromEnvironment(DeploymentImpl.java:155)
+<{%reset%}>)
+I0822 09:39:38.338368    2188 eventsink.go:78] eventSink::Infoerr(<{%reset%}>  at com.pulumi.internal.PulumiInternal.fromEnvironment(PulumiInternal.java:41)
+<{%reset%}>)
+     Type                 Name        Plan     Info
+
+I0822 09:39:38.338972    2188 eventsink.go:78] eventSink::Infoerr(<{%reset%}>  at com.pulumi.Pulumi.withOptions(Pulumi.java:51)
+I0822 09:39:38.337830    2188 plugins.go:132] gatherPluginsFromProgram(): plugin java <nil> () is required by language host
+I0822 09:39:38.339599    2188 eventsink.go:78] eventSink::Infoerr(<{%reset%}>  at com.pulumi.Pulumi.run(Pulumi.java:29)
+<{%reset%}>)
+I0822 09:39:38.339599    2188 eventsink.go:78] eventSink::Infoerr(<{%reset%}>  at com.tejasoft.devops.iac.pulumi.docker.DockerPulumiApp.main(DockerPulumiApp.java:12)
+<{%reset%}>)
+I0822 09:39:38.339599    2188 plugins.go:144] gatherPluginsFromSnapshot(): gathering plugins from snapshot
+I0822 09:39:38.340127    2188 eventsink.go:78] eventSink::Infoerr(<{%reset%}>Caused by: java.lang.IllegalArgumentException: expected environment variable: 'PULUMI_MONITOR', got: [USERDOMAIN_ROAMINGPROFILE, PROCESSOR_LEVEL, SESSIONNAME, ALLUSERSPROFILE, DevEco Studio, PROCESSOR_ARCHITECTURE, PSModulePath, SystemDrive, =ExitCode, DIRNAME, NODE_TLS_REJECT_UNAUTHORIZED, USERNAME, ProgramFiles(x86), VISUALSVN_SERVER, APP_HOME, DEFAULT_JVM_OPTS, PATHEXT, DriverData, BASH_ENV, GOPATH, ProgramData, ProgramW6432, HOMEPATH, SOPC_KIT_NIOS2, PROCESSOR_IDENTIFIER, ProgramFiles, PUBLIC, windir, QUICK_APP, =::, SE_LICENSE_SERVER, OneDriveCommercial, LOCALAPPDATA, USERDOMAIN, LOGONSERVER, JAVA_HOME, PROMPT, WebStorm, CAROOT, =G:, OneDrive, APPDATA, JAVA_EXE, ChocolateyInstall, CommonProgramFiles, Path, OS, COMPUTERNAME, PROCESSOR_REVISION, CLASSPATH, CommonProgramW6432, ComSpec, APP_BASE_NAME, SystemRoot, TEMP, HOMEDRIVE, USERPROFILE, TMP, WSLENV, CommonProgramFiles(x86), QSYS_ROOTDIR, NUMBER_OF_PROCESSORS, QUARTUS_ROOTDIR]
+<{%reset%}>)
+
+I0822 09:39:38.340637    2188 eventsink.go:78] eventSink::Infoerr(<{%reset%}>  at com.pulumi.core.internal.Environment.getEnvironmentVariable(Environment.java:42)
+I0822 09:39:38.340127    2188 plugins.go:181] ensurePluginsAreInstalled(): beginning
+I0822 09:39:38.340683    2188 eventsink.go:78] eventSink::Infoerr(<{%reset%}>  ... 6 more
+<{%reset%}>)
+I0822 09:39:38.340683    2188 eventsink.go:78] eventSink::Infoerr(<{%reset%}>FAILURE: Build failed with an exception.
+<{%reset%}>)
+I0822 09:39:38.340683    2188 eventsink.go:78] eventSink::Infoerr(<{%reset%}>* What went wrong:
+<{%reset%}>)
+I0822 09:39:38.341214    2188 eventsink.go:78] eventSink::Infoerr(<{%reset%}>Execution failed for task ':app:run'.ambda$fromEnvironment$2(DeploymentImpl.java:1660)
+<{%reset%}>)
+
+I0822 09:39:38.341214    2188 eventsink.go:78] eventSink::Infoerr(<{%reset%}>> Process 'command 'D:\Apps\Dev\langs\java\jdk\11.x\bin\java.exe'' finished with non-zero exit value 1
+I0822 09:39:38.341214    2188 eventsink.go:78] eventSink::Infoerr(<{%reset%}>* Try:
+<{%reset%}>)
+I0822 09:39:38.341214    2188 eventsink.go:78] eventSink::Infoerr(<{%reset%}>> Run with --stacktrace option to get the stack trace.
+<{%reset%}>)
+I0822 09:39:38.341750    2188 eventsink.go:78] eventSink::Infoerr(<{%reset%}>> Run with --info or --debug option to get more log output.
+<{%reset%}>)
+I0822 09:39:38.341750    2188 eventsink.go:78] eventSink::Infoerr(<{%reset%}>> Run with --scan to get full insights.
+<{%reset%}>)
+I0822 09:39:38.341750    2188 eventsink.go:78] eventSink::Infoerr(<{%reset%}>* Get more help at https://help.gradle.org
+<{%reset%}>)
+I0822 09:39:38.342799    2188 eventsink.go:78] eventSink::Infoerr(<{%reset%}>BUILD FAILED in 2s
+     pulumi:pulumi:Stack  docker-dev           BUILD FAILED in 2s
+I0822 09:39:38.387735    2188 plugins.go:1439] GetPluginPath(language, java, <nil>): found on $PATH D:\Apps\Dev\cloudc\devops\pulumi\3.38.0\pulumi-language-java.exe
+I0822 09:39:38.387735    2188 plugins.go:186] ensurePluginsAreInstalled(): plugin java <nil> already installed
+I0822 09:39:38.387735    2188 plugins.go:201] ensurePluginsAreInstalled(): completed
+I0822 09:39:38.390771    2188 plugins.go:291] computeDefaultProviderPlugins(): language host reported empty set of provider plugins, using all plugins
+I0822 09:39:38.390771    2188 plugins.go:310] computeDefaultProviderPlugins(): considering java
+I0822 09:39:38.390771    2188 plugins.go:313] computeDefaultProviderPlugins(): skipping java, not a resource provider
+I0822 09:39:38.390771    2188 plugins.go:347] computeDefaultProviderPlugins(): summary of default plugins:
+I0822 09:39:38.390771    2188 step_generator.go:1143] stepGenerator.GeneratePendingDeletes(): scanning previous snapshot for pending deletes
+I0822 09:39:38.390771    2188 langruntime_plugin.go:163] langhost[java].Run(pwd=G:\DWork\osource\cloudc\devops\pulumi\java\docker,program=.,#args=0,proj=docker,stack=dev,#config=7,dryrun=true) executing
+I0822 09:39:38.390771    2188 deployment_executor.go:475] deploymentExecutor.retirePendingDeletes(...): no pending deletions
+I0822 09:39:38.390771    2188 deployment_executor.go:256] deploymentExecutor.Execute(...): waiting for incoming events
+I0822 09:39:38.390771    2188 step_executor.go:389] StepExecutor worker(-2): worker coming online
+I0822 09:39:38.397398    2188 step_executor.go:389] StepExecutor worker(-2): worker waiting for incoming chains
+I0822 09:39:42.197616    2188 eventsink.go:59] Preparing resource: t=pulumi:pulumi:Stack, name=docker-dev, custom=false, remote=false
+I0822 09:39:42.198341    2188 eventsink.go:62] eventSink::Debug(<{%reset%}>Preparing resource: t=pulumi:pulumi:Stack, name=docker-dev, custom=false, remote=false<{%reset%}>)
+I0822 09:39:42.197804    2188 source_eval.go:631] ResourceMonitor.SupportsFeature(id: resourceReferences) = true
+I0822 09:39:42.197804    2188 source_eval.go:631] ResourceMonitor.SupportsFeature(id: resourceReferences) = true
+I0822 09:39:42.197804    2188 source_eval.go:631] ResourceMonitor.SupportsFeature(id: resourceReferences) = true
+I0822 09:39:42.197804    2188 source_eval.go:631] ResourceMonitor.SupportsFeature(id: resourceReferences) = true
+I0822 09:39:42.216440    2188 eventsink.go:59] Preparing resource: t=docker:index/remoteImage:RemoteImage, name=backend, custom=true, remote=false
+I0822 09:39:42.222589    2188 eventsink.go:62] eventSink::Debug(<{%reset%}>Preparing resource: t=docker:index/remoteImage:RemoteImage, name=backend, custom=true, remote=false<{%reset%}>)
+I0822 09:39:42.227386    2188 eventsink.go:59] Preparing resource: t=docker:index/remoteImage:RemoteImage, name=frontend, custom=true, remote=false
+I0822 09:39:42.227386    2188 eventsink.go:62] eventSink::Debug(<{%reset%}>Preparing resource: t=docker:index/remoteImage:RemoteImage, name=frontend, custom=true, remote=false<{%reset%}>)
+I0822 09:39:42.234578    2188 eventsink.go:59] Preparing resource: t=docker:index/remoteImage:RemoteImage, name=mongodb, custom=true, remote=false
+I0822 09:39:42.235130    2188 eventsink.go:62] eventSink::Debug(<{%reset%}>Preparing resource: t=docker:index/remoteImage:RemoteImage, name=mongodb, custom=true, remote=false<{%reset%}>)
+I0822 09:39:42.318571    2188 eventsink.go:59] Prepared resource: t=pulumi:pulumi:Stack, name=docker-dev, custom=false, remote=false
+I0822 09:39:42.318571    2188 eventsink.go:62] eventSink::Debug(<{%reset%}>Prepared resource: t=pulumi:pulumi:Stack, name=docker-dev, custom=false, remote=false<{%reset%}>)
+I0822 09:39:42.355349    2188 eventsink.go:59] Registering resource monitor start: t=pulumi:pulumi:Stack, name=docker-dev, custom=false, remote=false, request=type: "pulumi:pulumi:Stack"
+name: "docker-dev"
+object {
+}
+acceptSecrets: true
+customTimeouts {
+}
+deleteBeforeReplaceDefined: true
+acceptResources: true
+I0822 09:39:42.366356    2188 eventsink.go:62] eventSink::Debug(<{%reset%}>Registering resource monitor start: t=pulumi:pulumi:Stack, name=docker-dev, custom=false, remote=false, request=type: "pulumi:pulumi:Stack"
+name: "docker-dev"
+object {
+}
+acceptSecrets: true
+customTimeouts {
+}
+deleteBeforeReplaceDefined: true
+acceptResources: true
+<{%reset%}>)
+I0822 09:39:42.372004    2188 source_eval.go:1087] ResourceMonitor.RegisterResource received: t=pulumi:pulumi:Stack, name=docker-dev, custom=false, #props=0, parent=, protect=false, provider=, deps=[], deleteBeforeReplace=0xc0002b1a78, ignoreChanges=[], aliases=[], customTimeouts={0 0 0}, providers=map[], replaceOnChanges=[], retainOnDelete=false
+I0822 09:39:42.376218    2188 source_eval.go:167] EvalSourceIterator produced a registration: t=pulumi:pulumi:Stack,name=docker-dev,#props=0
+I0822 09:39:42.377369    2188 deployment_executor.go:260] deploymentExecutor.Execute(...): incoming event (nil? false, <nil>)
+I0822 09:39:42.377912    2188 deployment_executor.go:447] deploymentExecutor.handleSingleEvent(...): received RegisterResourceEvent
+I0822 09:39:42.378447    2188 step_generator.go:713] Planner decided to create 'urn:pulumi:dev::docker::pulumi:pulumi:Stack::docker-dev' (inputs=map[])
+I0822 09:39:42.379028    2188 step_executor.go:389] StepExecutor worker(-2): worker received chain for execution
+I0822 09:39:42.380101    2188 step_executor.go:389] StepExecutor worker(-2): worker waiting for incoming chains
+I0822 09:39:42.380610    2188 step_executor.go:389] StepExecutor worker(0): launching oneshot worker
+I0822 09:39:42.392548    2188 source_eval.go:1168] stripping unknowns from RegisterResource response for urn urn:pulumi:dev::docker::pulumi:pulumi:Stack::docker-dev true)
+I0822 09:39:42.397269    2188 source_eval.go:1211] ResourceMonitor.RegisterResource operation finished: t=pulumi:pulumi:Stack, urn=urn:pulumi:dev::docker::pulumi:pulumi:Stack::docker-dev, #o +   pulumi:pulumi:Stack  docker-dev  create..   BUILD FAILED in 2s
+I0822 09:39:42.412598    2188 eventsink.go:59] Registering resource monitor end: t=pulumi:pulumi:Stack, name=docker-dev, custom=false, remote=false, result=urn: "urn:pulumi:dev::docker::pulumi:pulumi:Stack::docker-dev"
+object {
+}
+I0822 09:39:42.415542    2188 eventsink.go:62] eventSink::Debug(<{%reset%}>Registering resource monitor end: t=pulumi:pulumi:Stack, name=docker-dev, custom=false, remote=false, result=urn: "urn:pulumi:dev::docker::pulumi:pulumi:Stack::docker-dev"
+object {
+}
+<{%reset%}>)
+I0822 09:39:42.475333    2188 eventsink.go:59] RegisterResourceOutputs RPC prepared: urn='urn:pulumi:dev::docker::pulumi:pulumi:Stack::docker-dev'
+I0822 09:39:42.475430    2188 eventsink.go:62] eventSink::Debug(<{%reset%}>RegisterResourceOutputs RPC prepared: urn='urn:pulumi:dev::docker::pulumi:pulumi:Stack::docker-dev'<{%reset%}>)
+I0822 09:39:42.479288    2188 source_eval.go:1270] ResourceMonitor.RegisterResourceOutputs received: urn=urn:pulumi:dev::docker::pulumi:pulumi:Stack::docker-dev, #outs=0
+I0822 09:39:42.483746    2188 source_eval.go:172] EvalSourceIterator produced a completion: urn=urn:pulumi:dev::docker::pulumi:pulumi:Stack::docker-dev,#outs=0
+I0822 09:39:42.485040    2188 deployment_executor.go:260] deploymentExecutor.Execute(...): incoming event (nil? false, <nil>)
+I0822 09:39:42.485704    2188 deployment_executor.go:453] deploymentExecutor.handleSingleEvent(...): received register resource outputs
+I0822 09:39:42.486740    2188 step_executor.go:389] StepExecutor worker(-1): registered resource outputs urn:pulumi:dev::docker::pulumi:pulumi:Stack::docker-dev: old=#0, new=#0
+I0822 09:39:42.487535    2188 source_eval.go:1294] ResourceMonitor.RegisterResourceOutputs operation finished: urn=urn:pulumi:dev::docker::pulumi:pulumi:Stack::docker-dev, #outs=0
+I0822 09:39:42.502857    2188 eventsink.go:59] Prepared resource: t=docker:index/remoteImage:RemoteImage, name=mongodb, custom=true, remote=false
+I0822 09:39:42.502857    2188 eventsink.go:62] eventSink::Debug(<{%reset%}>Prepared resource: t=docker:index/remoteImage:RemoteImage, name=mongodb, custom=true, remote=false<{%reset%}>)
+I0822 09:39:42.514564    2188 eventsink.go:59] Registering resource monitor start: t=docker:index/remoteImage:RemoteImage, name=mongodb, custom=true, remote=false, request=type: "docker:index/remoteImage:RemoteImage"
+name: "mongodb"
+parent: "urn:pulumi:dev::docker::pulumi:pulumi:Stack::docker-dev"
+custom: true
+object {
+  fields {
+    key: "name"
+    value {
+      string_value: "fundamentals-mongodb:latest"
+    }
+  }
+}
+propertyDependencies {
+  key: "name"
+  value {
+  }
+}
+version: "3.4.1"
+acceptSecrets: true
+customTimeouts {
+}
+deleteBeforeReplaceDefined: true
+acceptResources: true
+I0822 09:39:42.515611    2188 eventsink.go:62] eventSink::Debug(<{%reset%}>Registering resource monitor start: t=docker:index/remoteImage:RemoteImage, name=mongodb, custom=true, remote=false, request=type: "docker:index/remoteImage:RemoteImage"
+name: "mongodb"
+parent: "urn:pulumi:dev::docker::pulumi:pulumi:Stack::docker-dev"
+custom: true
+object {
+  fields {
+    key: "name"
+    value {
+      string_value: "fundamentals-mongodb:latest"
+    }
+  }
+}
+propertyDependencies {
+  key: "name"
+  value {
+  }
+}
+version: "3.4.1"
+acceptSecrets: true
+customTimeouts {
+}
+deleteBeforeReplaceDefined: true
+acceptResources: true
+<{%reset%}>)
+I0822 09:39:42.516517    2188 source_eval.go:345] handling default provider request for package docker-3.4.1
+I0822 09:39:42.527678    2188 eventsink.go:59] Prepared resource: t=docker:index/remoteImage:RemoteImage, name=backend, custom=true, remote=false
+I0822 09:39:42.534369    2188 source_eval.go:403] checking if docker-3.4.1 should be denied
+I0822 09:39:42.538604    2188 eventsink.go:62] eventSink::Debug(<{%reset%}>Prepared resource: t=docker:index/remoteImage:RemoteImage, name=backend, custom=true, remote=false<{%reset%}>)
+I0822 09:39:42.539133    2188 source_eval.go:437] Did not find a config for 'pulumi'
+I0822 09:39:42.544341    2188 source_eval.go:293] newRegisterDefaultProviderEvent(docker-3.4.1): using version 3.4.1 from request
+I0822 09:39:42.544341    2188 source_eval.go:312] newRegisterDefaultProviderEvent(docker-3.4.1): no pluginDownloadURL specified, falling back to default pluginDownloadURL
+I0822 09:39:42.545487    2188 source_eval.go:320] newRegisterDefaultProviderEvent(docker-3.4.1): default pluginDownloadURL miss, sending empty string to engine
+I0822 09:39:42.546633    2188 source_eval.go:378] waiting for default provider for package docker-3.4.1
+I0822 09:39:42.546633    2188 source_eval.go:167] EvalSourceIterator produced a registration: t=pulumi:providers:docker,name=default_3_4_1,#props=8
+I0822 09:39:42.548241    2188 deployment_executor.go:260] deploymentExecutor.Execute(...): incoming event (nil? false, <nil>)
+I0822 09:39:42.548241    2188 eventsink.go:59] Registering resource monitor start: t=docker:index/remoteImage:RemoteImage, name=backend, custom=true, remote=false, request=type: "docker:index/remoteImage:RemoteImage"
+name: "backend"
+parent: "urn:pulumi:dev::docker::pulumi:pulumi:Stack::docker-dev"
+custom: true
+object {
+  fields {
+    key: "name"
+    value {
+      string_value: "fundamentals-backend:latest"
+    }
+  }
+}
+propertyDependencies {
+  key: "name"
+  value {
+  }
+}
+version: "3.4.1"
+acceptSecrets: true
+customTimeouts {
+}
+deleteBeforeReplaceDefined: true
+acceptResources: true
+I0822 09:39:42.553585    2188 deployment_executor.go:447] deploymentExecutor.handleSingleEvent(...): received RegisterResourceEvent
+I0822 09:39:42.564389    2188 eventsink.go:62] eventSink::Debug(<{%reset%}>Registering resource monitor start: t=docker:index/remoteImage:RemoteImage, name=backend, custom=true, remote=false, request=type: "docker:index/remoteImage:RemoteImage"
+name: "backend"
+parent: "urn:pulumi:dev::docker::pulumi:pulumi:Stack::docker-dev"
+custom: true
+object {
+  fields {
+    key: "name"
+    value {
+      string_value: "fundamentals-backend:latest"
+    }
+  }
+}
+propertyDependencies {
+  key: "name"
+  value {
+  }
+}
+version: "3.4.1"
+acceptSecrets: true
+customTimeouts {
+}
+deleteBeforeReplaceDefined: true
+acceptResources: true
+<{%reset%}>)
+I0822 09:39:42.564979    2188 registry.go:260] ProviderRegistry.Check(urn:pulumi:dev::docker::pulumi:providers:docker::default_3_4_1) executing (#olds=0,#news=8)
+I0822 09:39:42.573637    2188 eventsink.go:59] Prepared resource: t=docker:index/remoteImage:RemoteImage, name=frontend, custom=true, remote=false
+I0822 09:39:42.574186    2188 eventsink.go:62] eventSink::Debug(<{%reset%}>Prepared resource: t=docker:index/remoteImage:RemoteImage, name=frontend, custom=true, remote=false<{%reset%}>)
+I0822 09:39:42.576870    2188 eventsink.go:59] Registering resource monitor start: t=docker:index/remoteImage:RemoteImage, name=frontend, custom=true, remote=false, request=type: "docker:index/remoteImage:RemoteImage"
+name: "frontend"
+parent: "urn:pulumi:dev::docker::pulumi:pulumi:Stack::docker-dev"
+custom: true
+object {
+  fields {
+    key: "name"
+    value {
+      string_value: "fundamentals-frontend:latest"
+    }
+  }
+}
+propertyDependencies {
+  key: "name"
+  value {
+  }
+}
+version: "3.4.1"
+acceptSecrets: true
+customTimeouts {
+}
+deleteBeforeReplaceDefined: true
+acceptResources: true
+I0822 09:39:42.577911    2188 eventsink.go:62] eventSink::Debug(<{%reset%}>Registering resource monitor start: t=docker:index/remoteImage:RemoteImage, name=frontend, custom=true, remote=false, request=type: "docker:index/remoteImage:RemoteImage"
+name: "frontend"
+parent: "urn:pulumi:dev::docker::pulumi:pulumi:Stack::docker-dev"
+custom: true
+object {
+  fields {
+    key: "name"
+    value {
+      string_value: "fundamentals-frontend:latest"
+    }
+  }
+}
+propertyDependencies {
+  key: "name"
+  value {
+  }
+}
+version: "3.4.1"
+acceptSecrets: true
+customTimeouts {
+}
+deleteBeforeReplaceDefined: true
+acceptResources: true
+<{%reset%}>)
+I0822 09:39:42.629292    2188 plugins.go:1486] GetPluginPath(resource, docker, 3.4.1): enabling new plugin behavior
+I0822 09:39:42.629949    2188 plugins.go:1570] SelectCompatiblePlugin(..., docker): beginning
+I0822 09:39:42.635869    2188 plugins.go:1599] SelectCompatiblePlugin(..., docker): best plugin docker-3.4.1: semver match
+I0822 09:39:42.636404    2188 plugins.go:1603] SelectCompatiblePlugin(..., docker): skipping plugin docker-3.5.0-alpha.1660680787+9d280bb7: semver mismatch
+I0822 09:39:42.636936    2188 plugins.go:1612] SelectCompatiblePlugin(..., docker): selecting plugin 'docker-3.4.1': best match
+I0822 09:39:42.638003    2188 plugins.go:1529] GetPluginPath(resource, docker, 3.4.1): found in cache at C:\Users\Raja Nagendra Kumar\.pulumi\plugins\resource-docker-v3.4.1\pulumi-resource-docker.exe
+I0822 09:39:42.638554    2188 plugin.go:184] Launching plugin 'docker (resource)' from 'C:\Users\Raja Nagendra Kumar\.pulumi\plugins\resource-docker-v3.4.1\pulumi-resource-docker.exe' with args: 127.0.0.1:51844
+I0822 09:39:42.858634    2188 provider_plugin.go:1475] Provider[docker, 0xc000d667e0].GetPluginInfo() executing
+I0822 09:39:42.859174    2188 provider_plugin.go:223] Provider[docker, 0xc000d667e0].CheckConfig(urn:pulumi:dev::docker::pulumi:providers:docker::default_3_4_1) executing (#olds=0,#news=8)
+I0822 09:39:42.861404    2188 rpc.go:74] Marshaling property for RPC[Provider[docker, 0xc000d667e0].CheckConfig(urn:pulumi:dev::docker::pulumi:providers:docker::default_3_4_1).news]: backendPort={3000}
+I0822 09:39:42.866888    2188 rpc.go:74] Marshaling property for RPC[Provider[docker, 0xc000d667e0].CheckConfig(urn:pulumi:dev::docker::pulumi:providers:docker::default_3_4_1).news]: database={mongodb}
+I0822 09:39:42.867422    2188 rpc.go:74] Marshaling property for RPC[Provider[docker, 0xc000d667e0].CheckConfig(urn:pulumi:dev::docker::pulumi:providers:docker::default_3_4_1).news]: frontendPort={3001}
+I0822 09:39:42.868546    2188 rpc.go:74] Marshaling property for RPC[Provider[docker, 0xc000d667e0].CheckConfig(urn:pulumi:dev::docker::pulumi:providers:docker::default_3_4_1).news]: mongoHost={localhost}
+I0822 09:39:42.869079    2188 rpc.go:74] Marshaling property for RPC[Provider[docker, 0xc000d667e0].CheckConfig(urn:pulumi:dev::docker::pulumi:providers:docker::default_3_4_1).news]: mongoPort={27017}
+I0822 09:39:42.869610    2188 rpc.go:74] Marshaling property for RPC[Provider[docker, 0xc000d667e0].CheckConfig(urn:pulumi:dev::docker::pulumi:providers:docker::default_3_4_1).news]: nodeEnvironment={18}
+I0822 09:39:42.870143    2188 rpc.go:74] Marshaling property for RPC[Provider[docker, 0xc000d667e0].CheckConfig(urn:pulumi:dev::docker::pulumi:providers:docker::default_3_4_1).news]: protocol={unix}
+I0822 09:39:42.870677    2188 rpc.go:74] Marshaling property for RPC[Provider[docker, 0xc000d667e0].CheckConfig(urn:pulumi:dev::docker::pulumi:providers:docker::default_3_4_1).news]: version={3.4.1}
+I0822 09:39:42.874584    2188 provider_plugin.go:255] Provider[docker, 0xc000d667e0].CheckConfig(urn:pulumi:dev::docker::pulumi:providers:docker::default_3_4_1) unimplemented rpc: returning news as is
+I0822 09:39:42.877798    2188 registry.go:184] setProvider(urn:pulumi:dev::docker::pulumi:providers:docker::default_3_4_1::04da6b54-80e4-46f7-96ec-b56ff0331ba9)
+I0822 09:39:42.882172    2188 step_generator.go:713] Planner decided to create 'urn:pulumi:dev::docker::pulumi:providers:docker::default_3_4_1' (inputs=map[backendPort:{3000} database:{mongodb} frontendPort:{3001} mongoHost:{localhost} mongoPort:{27017} nodeEnvironment:{18} protocol:{unix} version:{3.4.1}])
+I0822 09:39:42.883234    2188 step_executor.go:389] StepExecutor worker(-2): worker received chain for execution
+I0822 09:39:42.886941    2188 step_executor.go:389] StepExecutor worker(-2): worker waiting for incoming chains
+I0822 09:39:42.886941    2188 step_executor.go:389] StepExecutor worker(1): launching oneshot worker
+I0822 09:39:42.888577    2188 step_executor.go:389] StepExecutor worker(1): applying step create on urn:pulumi:dev::docker::pulumi:providers:docker::default_3_4_1 (preview true)
+I0822 09:39:42.889643    2188 registry.go:371] ProviderRegistry.Create(urn:pulumi:dev::docker::pulumi:providers:docker::default_3_4_1) executing (#news=8)
+I0822 09:39:42.898123    2188 registry.go:174] GetProvider(urn:pulumi:dev::docker::pulumi:providers:docker::default_3_4_1::04da6b54-80e4-46f7-96ec-b56ff0331ba9)
+I0822 09:39:42.898707    2188 provider_plugin.go:495] Provider[docker, 0xc000d667e0].Configure() executing (#vars=8)
+I0822 09:39:42.903073    2188 rpc.go:74] Marshaling property for RPC[Provider[docker, 0xc000d667e0].Configure().inputs]: backendPort={3000}
+I0822 09:39:42.904176    2188 rpc.go:74] Marshaling property for RPC[Provider[docker, 0xc000d667e0].Configure().inputs]: database={mongodb}
+I0822 09:39:42.904806    2188 rpc.go:74] Marshaling property for RPC[Provider[docker, 0xc000d667e0].Configure().inputs]: frontendPort={3001}
+I0822 09:39:42.908696    2188 rpc.go:74] Marshaling property for RPC[Provider[docker, 0xc000d667e0].Configure().inputs]: mongoHost={localhost}
+I0822 09:39:42.913067    2188 rpc.go:74] Marshaling property for RPC[Provider[docker, 0xc000d667e0].Configure().inputs]: mongoPort={27017}
+I0822 09:39:42.914157    2188 rpc.go:74] Marshaling property for RPC[Provider[docker, 0xc000d667e0].Configure().inputs]: nodeEnvironment={18}
+I0822 09:39:42.914671    2188 rpc.go:74] Marshaling property for RPC[Provider[docker, 0xc000d667e0].Configure().inputs]: protocol={unix}
+I0822 09:39:42.916262    2188 rpc.go:74] Marshaling property for RPC[Provider[docker, 0xc000d667e0].Configure().inputs]: version={3.4.1}
+I0822 09:39:42.923932    2188 registry.go:184] setProvider(urn:pulumi:dev::docker::pulumi:providers:docker::default_3_4_1::)
+I0822 09:39:42.924977    2188 step_executor.go:389] StepExecutor worker(1): step create on urn:pulumi:dev::docker::pulumi:providers:docker::default_3_4_1 retired
+I0822 09:39:42.929149    2188 source_eval.go:387] registered default provider for package docker-3.4.1: urn:pulumi:dev::docker::pulumi:providers:docker::default_3_4_1
+I0822 09:39:42.930181    2188 source_eval.go:345] handling default provider request for package docker-3.4.1
+I0822 09:39:42.930762    2188 source_eval.go:403] checking if docker-3.4.1 should be denied
+I0822 09:39:42.929673    2188 provider_plugin.go:550] Provider[docker, 0xc000d667e0].Configure() failed: err=could not validate provider configuration: 7 errors occurred:
+        * Invalid or unknown key
+        * Invalid or unknown key
+        * Invalid or unknown key
+        * Invalid or unknown key
+        * Invalid or unknown key
+        * Invalid or unknown key
+        * Invalid or unknown key
+
+I0822 09:39:42.930211    2188 rpc.go:274] Unmarshaling property for RPC[ResourceMonitor.RegisterResource(docker:index/remoteImage:RemoteImage,mongodb)]: name={fundamentals-mongodb:latest}
+I0822 09:39:42.931308    2188 source_eval.go:437] Did not find a config for 'pulumi'
+I0822 09:39:42.946614    2188 source_eval.go:345] handling default provider request for package docker-3.4.1
+I0822 09:39:42.947156    2188 source_eval.go:403] checking if docker-3.4.1 should be denied
+I0822 09:39:42.941109    2188 source_eval.go:1087] ResourceMonitor.RegisterResource received: t=docker:index/remoteImage:RemoteImage, name=mongodb, custom=true, #props=1, parent=urn:pulumi:dev::docker::pulumi:pulumi:Stack::docker-dev, protect=false, provider=urn:pulumi:dev::docker::pulumi:providers:docker::default_3_4_1::04da6b54-80e4-46f7-96ec-b56ff0331ba9, deps=[], deleteBeforeReplace=0xc000db1ff5, ignoreChanges=[], aliases=[], customTimeouts={0 0 0}, providers=map[], replaceOnChanges=[], retainOnDelete=false
+I0822 09:39:42.946614    2188 rpc.go:274] Unmarshaling property for RPC[ResourceMonitor.RegisterResource(docker:index/remoteImage:RemoteImage,backend)]: name={fundamentals-backend:latest}
+I0822 09:39:42.948268    2188 source_eval.go:437] Did not find a config for 'pulumi'
+I0822 09:39:42.953775    2188 source_eval.go:167] EvalSourceIterator produced a registration: t=docker:index/remoteImage:RemoteImage,name=mongodb,#props=1
+I0822 09:39:42.963523    2188 source_eval.go:1087] ResourceMonitor.RegisterResource received: t=docker:index/remoteImage:RemoteImage, name=backend, custom=true, #props=1, parent=urn:pulumi:dev::docker::pulumi:pulumi:Stack::docker-dev, protect=false, provider=urn:pulumi:dev::docker::pulumi:providers:docker::default_3_4_1::04da6b54-80e4-46f7-96ec-b56ff0331ba9, deps=[], deleteBeforeReplace=0xc000b3003d, ignoreChanges=[], aliases=[], customTimeouts={0 0 0}, providers=map[], replaceOnChanges=[], retainOnDelete=false
+I0822 09:39:42.964586    2188 rpc.go:274] Unmarshaling property for RPC[ResourceMonitor.RegisterResource(docker:index/remoteImage:RemoteImage,frontend)]: name={fundamentals-frontend:latest}
+I0822 09:39:42.965234    2188 deployment_executor.go:260] deploymentExecutor.Execute(...): incoming event (nil? false, <nil>)
+I0822 09:39:42.970756    2188 source_eval.go:167] EvalSourceIterator produced a registration: t=docker:index/remoteImage:RemoteImage,name=backend,#props=1
+I0822 09:39:42.971370    2188 source_eval.go:1087] ResourceMonitor.RegisterResource received: t=docker:index/remoteImage:RemoteImage, name=frontend, custom=true, #props=1, parent=urn:pulumi:dev::docker::pulumi:pulumi:Stack::docker-dev, protect=false, provider=urn:pulumi:dev::docker::pulumi:providers:docker::default_3_4_1::04da6b54-80e4-46f7-96ec-b56ff0331ba9, deps=[], deleteBeforeReplace=0xc000b30065, ignoreChanges=[], aliases=[], customTimeouts={0 0 0}, providers=map[], replaceOnChanges=[], retainOnDelete=false
+I0822 09:39:42.971927    2188 deployment_executor.go:447] deploymentExecutor.handleSingleEvent(...): received RegisterResourceEvent
+I0822 09:39:42.974120    2188 registry.go:174] GetProvider(urn:pulumi:dev::docker::pulumi:providers:docker::default_3_4_1::04da6b54-80e4-46f7-96ec-b56ff0331ba9)
+I0822 09:39:42.974649    2188 provider_plugin.go:571] Provider[docker, 0xc000d667e0].Check(urn:pulumi:dev::docker::docker:index/remoteImage:RemoteImage::mongodb) executing (#olds=0,#news=1
+I0822 09:39:42.975170    2188 deployment_executor.go:287] deploymentExecutor.Execute(...): error handling event: could not validate provider configuration: 7 errors occurred:
+        * Invalid or unknown key
+        * Invalid or unknown key
+        * Invalid or unknown key
+        * Invalid or unknown key
+        * Invalid or unknown key
+        * Invalid or unknown key
+        * Invalid or unknown key
+
+I0822 09:39:42.975702    2188 eventsink.go:86] eventSink::Error(<{%reset%}>could not validate provider configuration: 7 errors occurred:
+        * Invalid or unknown key
+        * Invalid or unknown key
+        * Invalid or unknown key
+        * Invalid or unknown key
+        * Invalid or unknown key
+        * Invalid or unknown key
+        * Invalid or unknown key
+
+<{%reset%}>)
+I0822 09:39:42.977876    2188 step_executor.go:389] StepExecutor worker(-1): StepExecutor.waitForCompletion(): worker threads all exiteds to exit
+I0822 09:39:42.978406    2188 deployment_executor.go:304] deploymentExecutor.Execute(...): step executor has completed
+I0822 09:39:42.978406    2188 deployment_executor.go:162] deploymentExecutor.Execute(...): exiting provider canceller
+ +   pulumi:pulumi:Stack          docker-dev  create..   BUILD FAILED in 2s
+     └─ docker:index:RemoteImage  mongodb                error: could not validate provider configuration: 7 errors occurred:
+I0822 09:39:42.992161    2188 langruntime_plugin.go:188] langhost[java].Run(pwd=G:\DWork\osource\cloudc\devops\pulumi\java\docker,program=.,...,dryrun=true) failed: err=error reading from server: read tcp 127.0.0.1:51847->127.0.0.1:51845: use of closed network connection
+I0822 09:39:42.992696    2188 ignore.go:44] Explicitly ignoring and discarding error: rpc error: code = Canceled desc = grpc: the client connection is closing
+I0822 09:39:43.006714    2188 host.go:486] Error closing 'java' language plugin during shutdown; ignoring: 2 errors occurred:
+        * TerminateProcess: Access is denied.
+        * TerminateProcess: Access is denied.
+ +   pulumi:pulumi:Stack          docker-dev  create     22 messages
+     └─ docker:index:RemoteImage  mongodb                1 error
+
+Diagnostics:
+  docker:index:RemoteImage (mongodb):
+    error: could not validate provider configuration: 7 errors occurred:
+        * Invalid or unknown key
+        * Invalid or unknown key
+        * Invalid or unknown key
+        * Invalid or unknown key
+        * Invalid or unknown key
+        * Invalid or unknown key
+        * Invalid or unknown key
+
+  pulumi:pulumi:Stack (docker-dev):
+    Exception in thread "main" java.lang.IllegalArgumentException: Program run without the Pulumi engine available; re-run using the `pulumi` CLI
+        at com.pulumi.deployment.internal.DeploymentImpl$DeploymentState.lambda$fromEnvironment$2(DeploymentImpl.java:1660)
+        at com.pulumi.core.Left.orThrow(Left.java:57)
+        at com.pulumi.deployment.internal.DeploymentImpl$DeploymentState.fromEnvironment(DeploymentImpl.java:1665)
+        at com.pulumi.deployment.internal.DeploymentImpl.fromEnvironment(DeploymentImpl.java:155)
+        at com.pulumi.internal.PulumiInternal.fromEnvironment(PulumiInternal.java:41)
+        at com.pulumi.Pulumi.withOptions(Pulumi.java:51)
+        at com.pulumi.Pulumi.run(Pulumi.java:29)
+        at com.tejasoft.devops.iac.pulumi.docker.DockerPulumiApp.main(DockerPulumiApp.java:12)
+    Caused by: java.lang.IllegalArgumentException: expected environment variable: 'PULUMI_MONITOR', got: [USERDOMAIN_ROAMINGPROFILE, PROCESSOR_LEVEL, SESSIONNAME, ALLUSERSPROFILE, DevEco Studio, PROCESSOR_ARCHITECTURE, PSModulePath, SystemDrive, =ExitCode, DIRNAME, NODE_TLS_REJECT_UNAUTHORIZED, USERNAME, ProgramFiles(x86), VISUALSVN_SERVER, APP_HOME, DEFAULT_JVM_OPTS, PATHEXT, DriverData, BASH_ENV, GOPATH, ProgramData, ProgramW6432, HOMEPATH, SOPC_KIT_NIOS2, PROCESSOR_IDENTIFIER, ProgramFiles, PUBLIC, windir, QUICK_APP, =::, SE_LICENSE_SERVER, OneDriveCommercial, LOCALAPPDATA, USERDOMAIN, LOGONSERVER, JAVA_HOME, PROMPT, WebStorm, CAROOT, =G:, OneDrive, APPDATA, JAVA_EXE, ChocolateyInstall, CommonProgramFiles, Path, OS, COMPUTERNAME, PROCESSOR_REVISION, CLASSPATH, CommonProgramW6432, ComSpec, APP_BASE_NAME, SystemRoot, TEMP, HOMEDRIVE, USERPROFILE, TMP, WSLENV, CommonProgramFiles(x86), QSYS_ROOTDIR, NUMBER_OF_PROCESSORS, QUARTUS_ROOTDIR]
+        at com.pulumi.core.internal.Environment.getEnvironmentVariable(Environment.java:42)
+        ... 6 more
+    FAILURE: Build failed with an exception.
+    * What went wrong:
+    Execution failed for task ':app:run'.
+    > Process 'command 'D:\Apps\Dev\langs\java\jdk\11.x\bin\java.exe'' finished with non-zero exit value 1
+    * Try:
+    > Run with --stacktrace option to get the stack trace.
+    > Run with --info or --debug option to get more log output.
+    > Run with --scan to get full insights.
+    * Get more help at https://help.gradle.org
+    BUILD FAILED in 2s

@@ -1,4 +1,8 @@
 https://www.pulumi.com/learn/pulumi-fundamentals/configure-and-provision/
-https://github.com/pulumi/tutorial-pulumi-fundamentals
+https://www.pulumi.com/learn/pulumi-fundamentals/create-docker-images/
+https://github.com/pulumi/tutorial-pulumi-fundamentals/
 
 pulumi plugin install resource docker
+
+
+https://docs.docker.com/get-started/02_our_app/

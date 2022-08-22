@@ -2,10 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12e4a99c-a3a8-4ff1-9762-7e5ab8b35b8f" name="Changes" comment="spaces added for new line">
+      <change afterPath="$PROJECT_DIR$/java/docker/a.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/docker/app/backend/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ts/aws/policy/PulumiPolicy.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ts/aws/policy/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ts/aws/test/props/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ts/aws/test/props/Pulumi.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ts/aws/test/props/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ts/aws/test/props/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ts/aws/test/props/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ts/aws/test/props/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ts/aws/test/props/runPT.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ts/aws/test/props/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ts/aws/test/unit/Pulumi.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ts/aws/test/unit/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ts/aws/test/unit/bucket_pair.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ts/aws/test/unit/bucket_pair_test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ts/aws/test/unit/ec2tests.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ts/aws/test/unit/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ts/aws/test/unit/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ts/aws/test/unit/tsconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/IaC_Devopedia_Sep_2022.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/IaC_Devopedia_Sep_2022.pptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go/azure/ReadMe.me" beforeDir="false" afterPath="$PROJECT_DIR$/go/azure/ReadMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/aws/ReadME,md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/aws/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/java/aws/ReadMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/docker/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/java/docker/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/docker/app/backend/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/java/docker/app/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/docker/app/src/main/java/com/tejasoft/devops/iac/pulumi/docker/DockerPulumiApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/docker/app/src/main/java/com/tejasoft/devops/iac/pulumi/docker/DockerPulumiApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,20 +49,22 @@
     <option name="autoscrollFromSource" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;app.teamhub.trackedBranches&quot;: &quot;fncmbm/main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;G:/DWork/osource/cloudc/devops/pulumi/docs/internet&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "app.teamhub.trackedBranches": "fncmbm/main",
+    "last_opened_file_path": "G:/DWork/osource/cloudc/devops/pulumi/ts/aws/test/props",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\DWork\osource\cloudc\devops\pulumi\ts\aws\test\props" />
+      <recent name="G:\DWork\osource\cloudc\devops\pulumi\ts\aws\policy" />
+      <recent name="G:\DWork\osource\cloudc\devops\pulumi\ts\aws\test\unit" />
       <recent name="G:\DWork\osource\cloudc\devops\pulumi\docs\internet" />
       <recent name="G:\DWork\osource\cloudc\devops\pulumi\java" />
-      <recent name="G:\DWork\osource\cloudc\devops\pulumi\java\gcp" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\DWork\osource\cloudc\devops\=-098765T7-" />
@@ -146,6 +171,9 @@
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.ts" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

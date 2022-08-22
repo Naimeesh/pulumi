@@ -1,0 +1,2 @@
+description: PaC-based integration policy to validate an AWS EKS cluster.
+runtime: nodejs
