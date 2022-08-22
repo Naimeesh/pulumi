@@ -2,33 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12e4a99c-a3a8-4ff1-9762-7e5ab8b35b8f" name="Changes" comment="spaces added for new line">
-      <change afterPath="$PROJECT_DIR$/java/docker/a.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/docker/app/backend/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ts/aws/policy/PulumiPolicy.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ts/aws/policy/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ts/aws/test/props/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ts/aws/test/props/Pulumi.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ts/aws/test/props/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ts/aws/test/props/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ts/aws/test/props/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ts/aws/test/props/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ts/aws/test/props/runPT.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ts/aws/test/props/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ts/aws/test/unit/Pulumi.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ts/aws/test/unit/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ts/aws/test/unit/bucket_pair.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ts/aws/test/unit/bucket_pair_test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ts/aws/test/unit/ec2tests.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ts/aws/test/unit/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ts/aws/test/unit/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ts/aws/test/unit/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/aws/test/intg/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/aws/test/intg/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/aws/test/intg/examples_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/aws/test/intg/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/aws/test/intg/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/aws/test/intg/program/Pulumi.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/aws/test/intg/program/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/aws/test/intg/program/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/aws/test/intg/program/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/aws/test/intg/program/www/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/aws/wsite/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/aws/wsite/Pulumi.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/aws/wsite/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/aws/wsite/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/aws/wsite/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/aws/wsite/images/part2-website.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/aws/wsite/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/aws/wsite/www/icon/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go/aws/wsite/www/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ts/aws/lamda/dwh/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ts/aws/lamda/dwh/Pulumi.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ts/aws/lamda/dwh/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ts/aws/lamda/dwh/__tests__/serverless.integration.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ts/aws/lamda/dwh/architecture.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ts/aws/lamda/dwh/datawarehouse/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ts/aws/lamda/dwh/datawarehouse/inputStream/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ts/aws/lamda/dwh/datawarehouse/lambdaCron/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ts/aws/lamda/dwh/datawarehouse/partitionRegistrar/__tests__/partitionHelper.unit.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ts/aws/lamda/dwh/datawarehouse/partitionRegistrar/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ts/aws/lamda/dwh/datawarehouse/partitionRegistrar/partitionHelper.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ts/aws/lamda/dwh/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ts/aws/lamda/dwh/jest.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ts/aws/lamda/dwh/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ts/aws/lamda/dwh/testing/eventGenerator/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ts/aws/lamda/dwh/testing/integration/execute.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ts/aws/lamda/dwh/testing/integration/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ts/aws/lamda/dwh/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ts/aws/lamda/dwh/utils/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/IaC_Devopedia_Sep_2022.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/IaC_Devopedia_Sep_2022.pptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Devopedia.docx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Devopedia.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java/aws/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/java/aws/ReadMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/docker/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/java/docker/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/docker/app/backend/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/java/docker/app/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/docker/app/src/main/java/com/tejasoft/devops/iac/pulumi/docker/DockerPulumiApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/docker/app/src/main/java/com/tejasoft/devops/iac/pulumi/docker/DockerPulumiApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts/aws/policy/PulumiPolicy.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts/aws/policy/Readme.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,17 +70,17 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "app.teamhub.trackedBranches": "fncmbm/main",
-    "last_opened_file_path": "G:/DWork/osource/cloudc/devops/pulumi/ts/aws/test/props",
+    "last_opened_file_path": "G:/DWork/osource/cloudc/devops/pulumi/go/aws/test/intg",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\DWork\osource\cloudc\devops\pulumi\go\aws\test\intg" />
+      <recent name="G:\DWork\osource\cloudc\devops\pulumi\go\aws\wsite" />
+      <recent name="G:\DWork\osource\cloudc\devops\pulumi\ts\aws\lamda\dwh" />
+      <recent name="G:\DWork\osource\cloudc\devops\pulumi\ts\aws\lamda" />
       <recent name="G:\DWork\osource\cloudc\devops\pulumi\ts\aws\test\props" />
-      <recent name="G:\DWork\osource\cloudc\devops\pulumi\ts\aws\policy" />
-      <recent name="G:\DWork\osource\cloudc\devops\pulumi\ts\aws\test\unit" />
-      <recent name="G:\DWork\osource\cloudc\devops\pulumi\docs\internet" />
-      <recent name="G:\DWork\osource\cloudc\devops\pulumi\java" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\DWork\osource\cloudc\devops\=-098765T7-" />
