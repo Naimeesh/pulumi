@@ -2,49 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12e4a99c-a3a8-4ff1-9762-7e5ab8b35b8f" name="Changes" comment="spaces added for new line">
-      <change afterPath="$PROJECT_DIR$/go/aws/test/intg/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go/aws/test/intg/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go/aws/test/intg/examples_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go/aws/test/intg/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go/aws/test/intg/go.sum" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go/aws/test/intg/program/Pulumi.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go/aws/test/intg/program/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go/aws/test/intg/program/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go/aws/test/intg/program/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go/aws/test/intg/program/www/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go/aws/wsite/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go/aws/wsite/Pulumi.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go/aws/wsite/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go/aws/wsite/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go/aws/wsite/go.sum" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go/aws/wsite/images/part2-website.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go/aws/wsite/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go/aws/wsite/www/icon/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go/aws/wsite/www/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ts/aws/lamda/dwh/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ts/aws/lamda/dwh/Pulumi.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ts/aws/lamda/dwh/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ts/aws/lamda/dwh/__tests__/serverless.integration.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ts/aws/lamda/dwh/architecture.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ts/aws/lamda/dwh/datawarehouse/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ts/aws/lamda/dwh/datawarehouse/inputStream/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ts/aws/lamda/dwh/datawarehouse/lambdaCron/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ts/aws/lamda/dwh/datawarehouse/partitionRegistrar/__tests__/partitionHelper.unit.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ts/aws/lamda/dwh/datawarehouse/partitionRegistrar/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ts/aws/lamda/dwh/datawarehouse/partitionRegistrar/partitionHelper.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ts/aws/lamda/dwh/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ts/aws/lamda/dwh/jest.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ts/aws/lamda/dwh/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ts/aws/lamda/dwh/testing/eventGenerator/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ts/aws/lamda/dwh/testing/integration/execute.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ts/aws/lamda/dwh/testing/integration/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ts/aws/lamda/dwh/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ts/aws/lamda/dwh/utils/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bat/testPath.bat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Devopedia.docx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Devopedia.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/aws/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/java/aws/ReadMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts/aws/policy/PulumiPolicy.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts/aws/policy/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts/aws/lamda/raw/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ts/aws/lamda/raw/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

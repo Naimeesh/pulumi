@@ -32,7 +32,7 @@ AWS Lambda).
 1.  Set the AWS region:
 
     ```bash
-    $ pulumi config set aws:region us-east-2
+    $ pulumi config set aws:region ap-south-1
     ```
 
 1.  Optionally, set AWS Lambda provisioned concurrency:
@@ -44,7 +44,7 @@ AWS Lambda).
 1.  Run `pulumi up` to preview and deploy changes:
 
     ```
-    $ pulumi up
+    $ pulumi up -y
     Previewing update (dev):
     ...
 
@@ -58,7 +58,7 @@ AWS Lambda).
 1.  Check the deployed GraphQL endpoint:
 
     ```
-    $ curl $(pulumi stack output endpoint)/hello
+    $ curl https://gi0s7oe6pd.execute-api.ap-south-1.amazonaws.com/api/hello
     {"Path":"/hello","Count":0}
     ```
 
