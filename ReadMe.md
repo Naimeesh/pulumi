@@ -35,6 +35,7 @@ https://github.com/pulumi/tutorial-pulumi-fundamentals
 
 https://github.com/pulumi/examples
 
+pulumi cancel
 
 pulumi stack output
 
@@ -53,3 +54,6 @@ https://www.pulumi.com/docs/guides/testing/
 
 
 https://github.com/pulumi/examples/tree/74db62a03d013c2854d2cf933c074ea0a3bbf69d/testing-pac-ts
+
+aws.amazon.com
+

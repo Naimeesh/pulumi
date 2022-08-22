@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12e4a99c-a3a8-4ff1-9762-7e5ab8b35b8f" name="Changes" comment="spaces added for new line">
-      <change afterPath="$PROJECT_DIR$/bat/testPath.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ts/docker/multi/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ts/docker/multi/Pulumi.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ts/docker/multi/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ts/docker/multi/app/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ts/docker/multi/app/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ts/docker/multi/app/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ts/docker/multi/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ts/docker/multi/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ts/docker/multi/tsconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts/aws/lamda/raw/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ts/aws/lamda/raw/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/WhatWorks.docx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/WhatWorks.docx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,17 +39,17 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "app.teamhub.trackedBranches": "fncmbm/main",
-    "last_opened_file_path": "G:/DWork/osource/cloudc/devops/pulumi/go/aws/test/intg",
+    "last_opened_file_path": "G:/DWork/osource/cloudc/devops/pulumi/ts/docker/multi",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\DWork\osource\cloudc\devops\pulumi\ts\docker\multi" />
+      <recent name="G:\DWork\osource\cloudc\devops\pulumi\ts\aws\test\unit" />
       <recent name="G:\DWork\osource\cloudc\devops\pulumi\go\aws\test\intg" />
       <recent name="G:\DWork\osource\cloudc\devops\pulumi\go\aws\wsite" />
       <recent name="G:\DWork\osource\cloudc\devops\pulumi\ts\aws\lamda\dwh" />
-      <recent name="G:\DWork\osource\cloudc\devops\pulumi\ts\aws\lamda" />
-      <recent name="G:\DWork\osource\cloudc\devops\pulumi\ts\aws\test\props" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\DWork\osource\cloudc\devops\=-098765T7-" />
