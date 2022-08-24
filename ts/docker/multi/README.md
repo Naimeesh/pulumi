@@ -9,7 +9,7 @@ This example Pulumi application runs two containers locally, one Redis container
 To run this example, make sure [Docker](https://docs.docker.com/engine/installation/) is installed and running.
 
 ## Running the App
-
+0.  Works only on wsl or linux machines on windows it gives error  Error initializing Docker client: protocol not available
 1.  Create a new stack:
 
     ```

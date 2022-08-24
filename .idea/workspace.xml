@@ -2,18 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12e4a99c-a3a8-4ff1-9762-7e5ab8b35b8f" name="Changes" comment="spaces added for new line">
-      <change afterPath="$PROJECT_DIR$/ts/docker/multi/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ts/docker/multi/Pulumi.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ts/docker/multi/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ts/docker/multi/app/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ts/docker/multi/app/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ts/docker/multi/app/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ts/docker/multi/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ts/docker/multi/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ts/docker/multi/tsconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/WhatWorks.docx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/WhatWorks.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/IaC_Devopedia_Sep_2022.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/IaC_Devopedia_Sep_2022.pptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/docker/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/java/docker/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/docker/pullimages/app/src/main/java/com/tejasoft/devops/iac/pulumi/GradlePulumiApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/aws/s3/Pulumi.dev.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/python/aws/s3/Pulumi.dev.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts/aws/lamda/raw/Pulumi.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/ts/aws/lamda/raw/Pulumi.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts/docker/multi/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ts/docker/multi/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,24 +34,24 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "app.teamhub.trackedBranches": "fncmbm/main",
-    "last_opened_file_path": "G:/DWork/osource/cloudc/devops/pulumi/ts/docker/multi",
+    "last_opened_file_path": "G:/DWork/osource/cloudc/devops/pulumi/java/docker/pullimages/app/src/main/java/com/tejasoft/devops/iac/pulumi",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\DWork\osource\cloudc\devops\pulumi\java\docker\pullimages\app\src\main\java\com\tejasoft\devops\iac\pulumi" />
       <recent name="G:\DWork\osource\cloudc\devops\pulumi\ts\docker\multi" />
       <recent name="G:\DWork\osource\cloudc\devops\pulumi\ts\aws\test\unit" />
       <recent name="G:\DWork\osource\cloudc\devops\pulumi\go\aws\test\intg" />
       <recent name="G:\DWork\osource\cloudc\devops\pulumi\go\aws\wsite" />
-      <recent name="G:\DWork\osource\cloudc\devops\pulumi\ts\aws\lamda\dwh" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\DWork\osource\cloudc\devops\pulumi\java\docker\pullimages\app\src\main\java\myproject" />
       <recent name="G:\DWork\osource\cloudc\devops\=-098765T7-" />
       <recent name="G:\DWork\osource\cloudc\devops\pulumi\go\azure" />
       <recent name="G:\DWork\osource\cloudc\devops\pulumi\java\gcp" />
       <recent name="G:\DWork\osource\cloudc\devops\pulumi\java\j" />
-      <recent name="G:\DWork\osource\cloudc\devops\pulumi\java\azure" />
     </key>
   </component>
   <component name="RunManager">
