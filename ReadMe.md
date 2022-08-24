@@ -14,6 +14,8 @@ pulumi new java-gradle</br>
 pulumi new yaml -f
 
 pulumi up -y</br>
+pulumi update -y
+pulumi up --diff
 
 pulumi stack</br>
 pulumi stack ls</br>
@@ -40,14 +42,17 @@ pulumi cancel
 pulumi stack output
 
 pulumi destroy -y
+pulumi stack rm --yes
 
 https://www.pulumi.com/registry/
 https://www.pulumi.com/docs/intro/concepts/
 https://github.com/jonashackt/pulumi-talk
 
 pulumi preview --logtostderr -v=9
+
 pulumi plugin install resource docker
 pulumi plugin install resource docker v3.5.0-alpha.1660680787+9d280bb7
+
 docker image rm 22b56b107300
 
 https://www.pulumi.com/docs/guides/testing/
@@ -57,3 +62,6 @@ https://github.com/pulumi/examples/tree/74db62a03d013c2854d2cf933c074ea0a3bbf69d
 
 aws.amazon.com
 
+pulumi convert --language python --out ./bucket-py
+
+pulumi stack output kubeconfig --show-secrets > kubeconfig

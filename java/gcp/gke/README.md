@@ -43,7 +43,7 @@ After cloning this repo, from this working directory, run these commands:
 
     ```bash
     $ pulumi config set gcp:project <YOUR_GCP_PROJECT_HERE>
-    $ pulumi config set gcp:zone us-west1-a     # any valid GCP Zone here
+    $ pulumi config set gcp:zone asia-south1-a     # any valid GCP Zone here
     ```
 
 1. Stand up the GKE cluster:

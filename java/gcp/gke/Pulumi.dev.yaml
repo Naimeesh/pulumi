@@ -1,0 +1,3 @@
+config:
+  gcp:project: testGCP
+  gcp:zone: asia-south1-a
