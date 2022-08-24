@@ -1,3 +1,0 @@
-name: jg
-runtime: java
-description: A minimal Java Pulumi program with Gradle builds
