@@ -9,6 +9,8 @@ This example Pulumi application runs two containers locally, one Redis container
 To run this example, make sure [Docker](https://docs.docker.com/engine/installation/) is installed and running.
 
 ## Running the App
+
+-1: pulumi config set docker:host "npipe:////.//pipe//docker_engine" on windows
 0.  Works only on wsl or linux machines on windows it gives error  Error initializing Docker client: protocol not available
 
     docker context ls

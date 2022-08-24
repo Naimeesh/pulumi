@@ -1,0 +1,9 @@
+config:
+  docker:host: npipe:////.//pipe//docker_engine
+  pullimages:backendPort: "3000"
+  pullimages:database: cart
+  pullimages:frontendPort: "3001"
+  pullimages:mongoHost: mongodb://mongo:27017
+  pullimages:mongoPort: "27017"
+  pullimages:nodeEnvironment: development
+  pullimages:protocol: http://

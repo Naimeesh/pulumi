@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12e4a99c-a3a8-4ff1-9762-7e5ab8b35b8f" name="Changes" comment="spaces added for new line">
+      <change afterPath="$PROJECT_DIR$/java/docker/pullimages/app/src/main/java/com/tejasoft/devops/iac/pulumi/docker/NewPulumiDockerApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts/docker/multi/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts/docker/multi/Pulumi.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts/docker/multi/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts/docker/multi/app/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts/docker/multi/app/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts/docker/multi/app/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts/docker/multi/app/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts/docker/multi/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts/docker/multi/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts/docker/multi/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts/docker/multi/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/docker/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/java/docker/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/docker/pullimages/app/src/main/java/com/tejasoft/devops/iac/pulumi/docker/DockerPullImagePulumiApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/docker/pullimages/app/src/main/java/com/tejasoft/devops/iac/pulumi/docker/DockerPullImagePulumiApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts/docker/imgcreate/multi/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ts/docker/imgcreate/multi/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -16,11 +16,11 @@ public final class DockerPullImagePulumiApp
     {
 	final var stackName = aContext.stackName();
 
-	//final String backendImageName = "backend";
-	//var backendImage = new RemoteImage(
-	//	backendImageName,
-	//	RemoteImageArgs.builder()
-	//		       .name(String.format("pulumi/tutorial-pulumi-fundamentals-%s:latest",backendImageName))
-	//		       .build());
+	final String backendImageName = "backend";
+	var backendImage = new RemoteImage(
+		backendImageName,
+		RemoteImageArgs.builder()
+			       .name(String.format("pulumi/tutorial-pulumi-fundamentals-%s:latest", backendImageName))
+			       .build());
     }
 }

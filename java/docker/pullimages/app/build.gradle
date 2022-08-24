@@ -16,7 +16,11 @@ dependencies {
 }
 
 application {
-    mainClass = project.hasProperty("mainClass")
+//    mainClass = project.hasProperty("mainClass")
+//            ? project.getProperty("mainClass")
+//            : 'com.tejasoft.devops.iac.pulumi.docker.DockerPullImagePulumiApp'
+
+        mainClass = project.hasProperty("mainClass")
             ? project.getProperty("mainClass")
-            : 'com.tejasoft.devops.iac.pulumi.docker.DockerPullImagePulumiApp'
+            : 'com.tejasoft.devops.iac.pulumi.docker.NewPulumiDockerApp'
 }
