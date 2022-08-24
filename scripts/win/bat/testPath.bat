@@ -5,3 +5,7 @@ dotnet
 go
 java
 javac
+
+gcloud
+az
+aws
