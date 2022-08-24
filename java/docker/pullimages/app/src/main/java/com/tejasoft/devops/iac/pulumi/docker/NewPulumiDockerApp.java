@@ -15,25 +15,30 @@ import com.pulumi.resources.CustomResourceOptions;
 
 import java.util.List;
 
-public class NewPulumiDockerApp
+public final class NewPulumiDockerApp
 {
-    public static void main(String[] args)
+    public static void main(final String[] aArgs)
     {
 	Pulumi.run(NewPulumiDockerApp::stack);
     }
 
-    private static void stack(Context ctx)
+    private static void stack(final Context aContext)
     {
-	var config = ctx.config();
+	var config = aContext.config();
+
 	var frontendPort = config.requireInteger("frontendPort");
+
 	var backendPort = config.requireInteger("backendPort");
-	var mongoPort = config.requireInteger("mongoPort");
+
 	var mongoHost = config.require("mongoHost");
-	var database = config.require("database");
+	var mongoPort = config.requireInteger("mongoPort");
+	var dbName = config.require("database");
+
 	var nodeEnvironment = config.require("nodeEnvironment");
+
 	var protocol = config.require("protocol");
 
-	final var stackName = ctx.stackName();
+	final var stackName = aContext.stackName();
 
 	// Create our images
 	final String backendImageName = "backend";
@@ -96,7 +101,7 @@ public class NewPulumiDockerApp
 						     .build())
 			     .envs(List.of(
 				     String.format("DATABASE_HOST=%s", mongoHost),
-				     String.format("DATABASE_NAME=%s", database),
+				     String.format("DATABASE_NAME=%s", dbName),
 				     String.format("NODE_ENV=%s", nodeEnvironment)
 					  ))
 			     .networksAdvanced(ContainerNetworksAdvancedArgs.builder()
@@ -130,6 +135,6 @@ public class NewPulumiDockerApp
 			     .build()
 	);
 
-	ctx.export("link", Output.of("http://localhost:3001"));
+	aContext.export("link", Output.of("http://localhost:3001"));
     }
 }
