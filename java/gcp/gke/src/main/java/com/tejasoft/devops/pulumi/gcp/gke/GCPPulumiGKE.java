@@ -102,8 +102,7 @@ public final class GCPPulumiGKE
 						 .orElseThrow(),
 					gcpConfig.zone()
 						 .orElseThrow(),
-					name
-				       );
+					name);
 
 	var masterAuthClusterCaCertificate = cluster.masterAuth()
 						    .applyValue(a -> a.clusterCaCertificate()
