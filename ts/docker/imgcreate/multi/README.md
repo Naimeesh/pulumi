@@ -10,6 +10,10 @@ To run this example, make sure [Docker](https://docs.docker.com/engine/installat
 
 ## Running the App
 0.  Works only on wsl or linux machines on windows it gives error  Error initializing Docker client: protocol not available
+
+    docker context ls
+    docker ps
+
 1.  Create a new stack:
 
     ```
