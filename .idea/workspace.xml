@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12e4a99c-a3a8-4ff1-9762-7e5ab8b35b8f" name="Changes" comment="spaces added for new line">
-      <change afterPath="$PROJECT_DIR$/java/aws/eks/Pulumi.dev.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/aws/eks/Pulumi.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/aws/eks/ReadMe.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/aws/eks/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/aws/eks/src/main/java/com/tejasoft/devops/iac/pulumi/aws/AWSEKSPulumiApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/IaC_Devopedia_Sep_2022.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/IaC_Devopedia_Sep_2022.pptx" afterDir="false" />
-    </list>
+    <list default="true" id="12e4a99c-a3a8-4ff1-9762-7e5ab8b35b8f" name="Changes" comment="spaces added for new line" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
