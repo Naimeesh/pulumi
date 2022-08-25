@@ -62,6 +62,10 @@ https://github.com/pulumi/examples/tree/74db62a03d013c2854d2cf933c074ea0a3bbf69d
 
 aws.amazon.com
 
+//yaml to language
 pulumi convert --language python --out ./bucket-py
 
+pulumi config
+pulumi config set --secret dbPassword S3cr37
 pulumi stack output kubeconfig --show-secrets > kubeconfig
+

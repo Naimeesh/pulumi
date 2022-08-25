@@ -2,16 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12e4a99c-a3a8-4ff1-9762-7e5ab8b35b8f" name="Changes" comment="spaces added for new line">
+      <change afterPath="$PROJECT_DIR$/java/aws/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/gcp/gke/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/gcp/gke/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/gcp/gke/img_2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/aws/Pulumi.dev.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/aws/Pulumi.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/IaC_Devopedia_Sep_2022.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/IaC_Devopedia_Sep_2022.pptx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java/aws/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/java/aws/ReadMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/aws/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/aws/src/main/java/com/tejasoft/devops/iac/pulumi/aws/AWSEKSPulumiApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/aws/src/main/java/com/tejasoft/devops/iac/pulumi/aws/AWSPulumiApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/aws/src/main/java/com/tejasoft/devops/iac/pulumi/aws/AWSPulumiWebserver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/docker/pullimages/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/java/docker/pullimages/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/gcp/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/java/gcp/ReadMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/gcp/gke/Pulumi.dev.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/java/gcp/gke/Pulumi.dev.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java/gcp/gke/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/java/gcp/gke/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/gcp/hw/Pulumi.dev.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/java/gcp/hw/Pulumi.dev.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/gcp/hw/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/java/gcp/hw/ReadMe.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

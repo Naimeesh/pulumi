@@ -199,3 +199,27 @@ After cloning this repo, from this working directory, run these commands:
     $ pulumi destroy --yes
     $ pulumi stack rm --yes
     ```
+
+
+    pulumi:pulumi:Stack       gcp-java-gke-hello-world-dev  **failed**
++   └─ gcp:container:Cluster  helloworld                    **creating fai
+
+
+error as billing is not configured properly
+
+Diagnostics:
+pulumi:pulumi:Stack (gcp-java-gke-hello-world-dev):
+error: update failed
+
+gcp:container:Cluster (helloworld):
+error: 1 error occurred:
+* googleapi: Error 400: Failed precondition when calling the ServiceConsumerManager: tenantmanager::185014: Consumer 651165881348 should enable service:container.googleapis.com before generating a service account.
+com.google.api.tenant.error.TenantManagerException: Consumer 651165881348 should enable service:container.googleapis.com before generating a service account., failedPrecondition
+
+Resources:
+1 unchanged
+
+![img.png](img.png)
+![img_1.png](img_1.png)
+https://console.cloud.google.com/monitoring/dashboards/resourceList/gce_instance?referrer=search&project=testgcp-360409&timeDomain=1h
+![img_2.png](img_2.png)

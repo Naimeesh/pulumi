@@ -5,7 +5,7 @@ import com.pulumi.aws.s3.Bucket;
 
 import java.util.stream.IntStream;
 
-public final class AWSPulumiApp
+public final class AWSS3PulumiApp
 {
     public static void main(final String[] aArgs)
     {
