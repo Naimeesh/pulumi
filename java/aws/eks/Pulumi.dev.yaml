@@ -1,0 +1,4 @@
+config:
+  aws:region: ap-south-1
+  hw:dbPassword:
+    secure: AAABADruWPmvqs40MNoFDToArvVHg527H1lQlBw1cDCEG8UshTc=

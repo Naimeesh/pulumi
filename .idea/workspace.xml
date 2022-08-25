@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12e4a99c-a3a8-4ff1-9762-7e5ab8b35b8f" name="Changes" comment="spaces added for new line">
-      <change beforePath="$PROJECT_DIR$/java/azure/src/main/java/com/tejasoft/devops/iac/pulumi/AzureStoragePulumiApp.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/aws/eks/Pulumi.dev.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/aws/eks/Pulumi.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/aws/eks/ReadMe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/aws/eks/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/aws/eks/src/main/java/com/tejasoft/devops/iac/pulumi/aws/AWSEKSPulumiApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/IaC_Devopedia_Sep_2022.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/IaC_Devopedia_Sep_2022.pptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,17 +34,17 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "app.teamhub.trackedBranches": "fncmbm/main",
-    "last_opened_file_path": "G:/DWork/osource/cloudc/devops/pulumi/java/azure",
+    "last_opened_file_path": "G:/DWork/osource/cloudc/devops/pulumi/java/aws",
     "settings.editor.selected.configurable": "preferences.general"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\DWork\osource\cloudc\devops\pulumi\java\aws" />
       <recent name="G:\DWork\osource\cloudc\devops\pulumi\java\gcp\gke" />
       <recent name="G:\DWork\osource\cloudc\devops\pulumi\java\docker\pullimages\app\src\main\java\com\tejasoft\devops\iac\pulumi" />
       <recent name="G:\DWork\osource\cloudc\devops\pulumi\ts\docker\multi" />
       <recent name="G:\DWork\osource\cloudc\devops\pulumi\ts\aws\test\unit" />
-      <recent name="G:\DWork\osource\cloudc\devops\pulumi\go\aws\test\intg" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\DWork\osource\cloudc\devops\pulumi\java\docker\pullimages\app\src\main\java\myproject" />
