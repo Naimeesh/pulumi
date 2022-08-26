@@ -6,3 +6,5 @@ Cloud Formation
 CDK
 CCA - Cloud Control API - AWS Native Provider uses this, fast, however functionality is limited as AWS cca are not complete by aws itself – Native Drivers depend on this API
 PULUMI
+
+aws configure
