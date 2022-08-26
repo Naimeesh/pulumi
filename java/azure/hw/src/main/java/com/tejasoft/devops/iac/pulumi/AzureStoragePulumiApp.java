@@ -17,7 +17,7 @@ public final class AzureStoragePulumiApp
     public static void main(final String[] aArgs)
     {
 	Pulumi.run(ctx -> {
-	    var resourceGroup = new ResourceGroup("resourceGroup");
+	    var resourceGroup = new ResourceGroup("azhw");
 	    var storageAccount = new StorageAccount("sea", StorageAccountArgs.builder()
 									     .resourceGroupName(resourceGroup.name())
 									     .sku(SkuArgs.builder()
