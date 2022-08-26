@@ -19,5 +19,5 @@ dependencies {
 application {
     mainClass = project.hasProperty("mainClass")
 	    ? project.getProperty("mainClass")
-	    : 'com.tejasoft.devops.iac.pulumi.aws.AWSEKSPulumiApp'
+	    : 'com.tejasoft.devops.iac.pulumi.aws.eks.AWSEKSPulumiApp'
 }

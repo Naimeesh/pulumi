@@ -1,4 +1,4 @@
-package com.tejasoft.devops.iac.pulumi.aws;
+package com.tejasoft.devops.iac.pulumi.aws.eks;
 
 import com.pulumi.Context;
 import com.pulumi.Pulumi;
