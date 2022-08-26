@@ -17,5 +17,5 @@ dependencies {
 application {
     mainClass = project.hasProperty("mainClass")
             ? project.getProperty("mainClass")
-            : 'com.tejasoft.devops.iac.pulumi.aws.logs_cfg.AWSPulumiLogsCfg'
+            : 'com.tejasoft.devops.iac.pulumi.aws.logs.AWSPulumiLogs'
 }

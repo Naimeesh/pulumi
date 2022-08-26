@@ -2,17 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12e4a99c-a3a8-4ff1-9762-7e5ab8b35b8f" name="Changes" comment="spaces added for new line">
-      <change afterPath="$PROJECT_DIR$/java/aws/aeks/Pulumi.dev.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java/aws/logs_cfg/Pulumi.dev.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/IaC_Devopedia_Sep_2022.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/IaC_Devopedia_Sep_2022.pptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/aws/eks/Pulumi.dev.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/aws/eks/Pulumi.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/aws/eks/ReadMe.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/aws/eks/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/aws/eks/src/main/java/com/tejasoft/devops/iac/pulumi/aws/AWSEKSPulumiApp.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/aws/hw/Pulumi.dev.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/java/aws/hw/Pulumi.dev.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/aws/hw/src/main/java/com/tejasoft/devops/iac/pulumi/aws/AWSEKSPulumiApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/aws/logs_cfg/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/aws/logs_cfg/Pulumi.dev.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/aws/logs_cfg/Pulumi.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/aws/logs_cfg/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/aws/logs_cfg/app/src/main/java/com/tejasoft/devops/iac/pulumi/aws/logs_cfg/AWSPulumiLogsCfg.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/aws/logs_cfg/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/aws/logs_cfg/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/aws/logs_cfg/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/aws/logs_cfg/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/aws/logs_cfg/settings.gradle" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,15 +34,15 @@
     <option name="autoscrollFromSource" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "app.teamhub.trackedBranches": "fncmbm/main",
-    "last_opened_file_path": "G:/DWork/osource/cloudc/devops/pulumi/java/aws/logs_cfg",
-    "settings.editor.selected.configurable": "preferences.general"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;app.teamhub.trackedBranches&quot;: &quot;fncmbm/main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;G:/DWork/osource/cloudc/devops/pulumi/java/aws/logs_cfg&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\DWork\osource\cloudc\devops\pulumi\java\aws\logs_cfg" />

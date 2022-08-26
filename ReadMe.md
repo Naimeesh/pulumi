@@ -69,3 +69,7 @@ pulumi config
 pulumi config set --secret dbPassword S3cr37
 pulumi stack output kubeconfig --show-secrets > kubeconfig
 
+pulumi config set --path 'data.active' true
+pulumi config set --path 'data.nums[0]' 1
+pulumi config set --path 'data.nums[1]' 2
+pulumi config set --path 'data.nums[2]' 3

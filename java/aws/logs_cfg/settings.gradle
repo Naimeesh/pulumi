@@ -1,2 +1,0 @@
-rootProject.name = 'logs_cfg'
-include('app')
