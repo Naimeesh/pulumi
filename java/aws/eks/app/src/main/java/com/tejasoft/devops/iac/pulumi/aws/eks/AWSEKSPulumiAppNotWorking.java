@@ -4,12 +4,10 @@ import com.pulumi.Context;
 import com.pulumi.Pulumi;
 import com.pulumi.eks.Cluster;
 
-import java.util.Map;
-
-public final class AWSEKSPulumiApp
+public final class AWSEKSPulumiAppNotWorking
 {
     public static void main(final String[] aArgs) {
-	Pulumi.run(AWSEKSPulumiApp::stack);
+	Pulumi.run(AWSEKSPulumiAppNotWorking::stack);
     }
 
     private static void stack(final Context aContext) {

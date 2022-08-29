@@ -8,3 +8,12 @@ CCA - Cloud Control API - AWS Native Provider uses this, fast, however functiona
 PULUMI
 
 aws configure
+aws --version
+aws eks update-kubeconfig --region region-code --name my-cluster
+kubectl get svc
+aws eks update-kubeconfig --name eks-cluster-eksCluster-af6f0f3
+https://docs.aws.amazon.com/eks/latest/userguide/create-kubeconfig.html
+
+pulumi config set aws-native:region ap-south-1
+
+aws s3 ls

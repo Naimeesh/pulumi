@@ -40,6 +40,7 @@ https://github.com/pulumi/examples
 pulumi cancel
 
 pulumi stack output
+pulumi stack output websiteUrl
 
 pulumi destroy -y
 pulumi stack rm --yes
@@ -57,7 +58,6 @@ docker image rm 22b56b107300
 
 https://www.pulumi.com/docs/guides/testing/
 
-
 https://github.com/pulumi/examples/tree/74db62a03d013c2854d2cf933c074ea0a3bbf69d/testing-pac-ts
 
 aws.amazon.com
@@ -66,10 +66,5 @@ aws.amazon.com
 pulumi convert --language python --out ./bucket-py
 
 pulumi config
-pulumi config set --secret dbPassword S3cr37
 pulumi stack output kubeconfig --show-secrets > kubeconfig
 
-pulumi config set --path 'data.active' true
-pulumi config set --path 'data.nums[0]' 1
-pulumi config set --path 'data.nums[1]' 2
-pulumi config set --path 'data.nums[2]' 3

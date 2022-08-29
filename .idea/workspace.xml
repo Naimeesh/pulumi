@@ -2,18 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12e4a99c-a3a8-4ff1-9762-7e5ab8b35b8f" name="Changes" comment="spaces added for new line">
+      <change afterPath="$PROJECT_DIR$/java/aws/eks/app/src/main/java/com/tejasoft/devops/iac/pulumi/aws/eks/AWSEKSPulumiAppMin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/aws/native/s3/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/aws/native/s3/Pulumi.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/aws/native/s3/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/aws/native/s3/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/aws/native/s3/www/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/aws/native/s3/www/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/aws/logs_cfg/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/aws/logs_cfg/Pulumi.dev.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/aws/logs_cfg/Pulumi.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/aws/logs_cfg/app/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/aws/logs_cfg/app/src/main/java/com/tejasoft/devops/iac/pulumi/aws/logs_cfg/AWSPulumiLogsCfg.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/aws/logs_cfg/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/aws/logs_cfg/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/aws/logs_cfg/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/aws/logs_cfg/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/aws/logs_cfg/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/IaC_Devopedia_Sep_2022.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/IaC_Devopedia_Sep_2022.pptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/aws/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/java/aws/ReadMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/aws/eks/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/java/aws/eks/ReadMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/aws/eks/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/java/aws/eks/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/aws/eks/app/src/main/java/com/tejasoft/devops/iac/pulumi/aws/eks/AWSEKSPulumiApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/aws/eks/app/src/main/java/com/tejasoft/devops/iac/pulumi/aws/eks/AWSEKSPulumiAppNotWorking.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,17 +41,17 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;app.teamhub.trackedBranches&quot;: &quot;fncmbm/main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;G:/DWork/osource/cloudc/devops/pulumi/java/aws/logs_cfg&quot;,
+    &quot;last_opened_file_path&quot;: &quot;G:/DWork/osource/cloudc/devops/pulumi/java/aws/native/s3&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\DWork\osource\cloudc\devops\pulumi\java\aws\native\s3" />
       <recent name="G:\DWork\osource\cloudc\devops\pulumi\java\aws\logs_cfg" />
       <recent name="G:\DWork\osource\cloudc\devops\pulumi\java\aws\aeks" />
       <recent name="G:\DWork\osource\cloudc\devops\pulumi\java\aws" />
       <recent name="G:\DWork\osource\cloudc\devops\pulumi\java\gcp\gke" />
-      <recent name="G:\DWork\osource\cloudc\devops\pulumi\java\docker\pullimages\app\src\main\java\com\tejasoft\devops\iac\pulumi" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\DWork\osource\cloudc\devops\pulumi\java\docker\pullimages\app\src\main\java\myproject" />
@@ -58,85 +60,6 @@
       <recent name="G:\DWork\osource\cloudc\devops\pulumi\java\gcp" />
       <recent name="G:\DWork\osource\cloudc\devops\pulumi\java\j" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="pulumi" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="pulumi" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <module name="pulumi" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="Tox" factoryName="Tox">
-      <module name="pulumi" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Autodetect">
-      <module name="pulumi" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Doctests">
-      <module name="pulumi" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method v="2" />
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
