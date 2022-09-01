@@ -26,12 +26,14 @@ pulumi up</br>
 </br>
 https://app.pulumi.com/nagkumar/k8n/dev/updates/17</br>
 
-
 pulumi destroy -s nagkumar/k8n/dev
 pulumi stack rm nagkumar/k8n/dev
 
 kubectl version --client --output=yaml
+kubectl version -short
 
 pulumi config set isMinikube true
 
 pulumi destroy
+
+https://kubernetes.io/releases/_print/

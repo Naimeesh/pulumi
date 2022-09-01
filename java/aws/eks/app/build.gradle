@@ -11,8 +11,8 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.pulumi:pulumi:0.5.4'
-    implementation 'com.pulumi:aws:5.13.0'
+    implementation 'com.pulumi:pulumi:0.5.2'
+    implementation 'com.pulumi:aws:5.11.0'
     implementation 'com.pulumi:kubernetes:3.20.5'
     implementation 'com.pulumi:eks:0.37.1'
 }

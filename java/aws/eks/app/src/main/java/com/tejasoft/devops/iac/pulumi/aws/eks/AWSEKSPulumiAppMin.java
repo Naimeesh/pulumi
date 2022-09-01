@@ -18,12 +18,10 @@ public final class AWSEKSPulumiAppMin
 	Pulumi.run(AWSEKSPulumiAppMin::stack);
     }
 
-    private static void stack(Context ctx)
+    private static void stack(final Context aContext)
     {
-	var vpcIdOutput = Ec2Functions.getVpc(
-		GetVpcArgs.builder().default_(true).build()
-					     ).applyValue(GetVpcResult::id);
-	ctx.export("vpcIdOutput", vpcIdOutput);
+	var vpcIdOutput = Ec2Functions.getVpc(GetVpcArgs.builder().default_(true).build()).applyValue(GetVpcResult::id);
+	aContext.export("vpcIdOutput", vpcIdOutput);
 
 	var subnetIdsOutput = vpcIdOutput
 		.apply(vpcId -> Ec2Functions.getSubnetIds(GetSubnetIdsArgs.builder()
@@ -36,9 +34,10 @@ public final class AWSEKSPulumiAppMin
 						      .limit(2)
 						      .collect(Collectors.toList()));
 
-	ctx.export("subnetIdsOutput", subnetIdsOutput.applyValue(vs -> String.join(",", vs)));
+	aContext.export("subnetIdsOutput", subnetIdsOutput.applyValue(vs -> String.join(",", vs)));
 
 	var cluster = new Cluster("my-cluster", ClusterArgs.builder()
+							   .version("1.23")
 							   .vpcId(vpcIdOutput)
 							   .subnetIds(subnetIdsOutput)
 							   .instanceType("t2.micro")
@@ -46,6 +45,6 @@ public final class AWSEKSPulumiAppMin
 							   .maxSize(2)
 							   .build());
 
-	ctx.export("kubeconfig", cluster.kubeconfig());
+	aContext.export("kubeconfig", cluster.kubeconfig());
     }
 }
