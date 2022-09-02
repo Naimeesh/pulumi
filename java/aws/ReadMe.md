@@ -14,6 +14,10 @@ kubectl get svc
 aws eks update-kubeconfig --name eks-cluster-eksCluster-af6f0f3
 https://docs.aws.amazon.com/eks/latest/userguide/create-kubeconfig.html
 
+
+: ap-south-1
 pulumi config set aws-native:region ap-south-1
+pulumi config set aws:region ap-south-1
+
 
 aws s3 ls

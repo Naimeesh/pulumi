@@ -28,10 +28,10 @@ public final class AWSNativePulumiWS
     {
 	final var siteBucket = new Bucket("s3-website-bucket",
 					  BucketArgs.builder()
-						    .websiteConfiguration(BucketWebsiteConfigurationArgs.builder()
-													.indexDocument(
-														"index.html")
-													.build())
+						    .websiteConfiguration(
+							    BucketWebsiteConfigurationArgs.builder()
+											  .indexDocument("index.html")
+											  .build())
 						    .build());
 
 	final String siteDir = "www/";
